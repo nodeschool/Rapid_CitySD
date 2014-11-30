@@ -11,7 +11,7 @@ We are expecting coorporation from all participants to help ensuring a safe envi
 Contact | Malik Dixon
 --- | ---
 Twitter | [@mdixon2009](https://twitter.com/mdixon2009)
-Email | malik.dixon47[at]gmail.com
+Email | malik.dixon47@gmail.com
 Phone | 605-786-2622
 
 ## The Quick Version

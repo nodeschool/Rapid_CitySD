@@ -9,4 +9,4 @@ Have a question? [Open an issue](https://github.com/nodeschool/Rapid_CitySD/issu
 
 The Website will be hosted as soon as possible.
 
-This group is not fully public like the ones that are listed on NodeSchool.org. We would like to keep it an invite only while we are starting out. If you would like to know more about other events and meetups please view the Facebook pages (https://www.facebook.com/groups/refreshrapid/) for more infomation.
+This group is not fully public like the ones that are listed on NodeSchool.org. We would like to keep it an invite only while we are starting out. If you would like to know more about other events and meetups please view the Facebook page (https://www.facebook.com/groups/refreshrapid/) for more information.

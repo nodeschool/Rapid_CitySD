@@ -16,7 +16,7 @@ Phone | 605-786-2622
 
 ## The Quick Version
 
-NodeSchool Berlin is dedicated to providing a harassment-free conference experience for 
+NodeSchool RapidCity_SD is dedicated to providing a harassment-free conference experience for 
 everyone, regardless of gender, sexual orientation, disability, physical appearance, body size,
 race, or religion. We do not tolerate harassment of participants in any form. Conference 
 participants violating these rules may be sanctioned or expelled from the event at the

@@ -941,6 +941,184 @@ dd {
 }
 
 /*
+ * Merriweather
+================================================================================ */
+@font-face {
+  font-family: 'merriweather-heavy';
+  src: url("fonts/merriweather/merriweather-black-webfont.eot");
+  src: url("fonts/merriweather/merriweather-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-black-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-black-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-black-webfont.svg#merriweatherheavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-bold';
+  src: url("fonts/merriweather/merriweather-bold-webfont.eot");
+  src: url("fonts/merriweather/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-bold-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-bold-italic';
+  src: url("fonts/merriweather/merriweather-bolditalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-heavy-italic';
+  src: url("fonts/merriweather/merriweather-heavyitalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-heavyitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-heavyitalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-heavyitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-heavyitalic-webfont.svg#merriweatherheavy_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-italic';
+  src: url("fonts/merriweather/merriweather-italic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-italic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-italic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-italic-webfont.svg#merriweatheritalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-light';
+  src: url("fonts/merriweather/merriweather-light-webfont.eot");
+  src: url("fonts/merriweather/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-light-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-light-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-light-italic';
+  src: url("fonts/merriweather/merriweather-lightitalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-regular';
+  src: url("fonts/merriweather/merriweather-regular-webfont.eot");
+  src: url("fonts/merriweather/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-regular-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-regular-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * Montserrat
+================================================================================ */
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url("fonts/montserrat/montserrat-regular-webfont.eot");
+  src: url("fonts/montserrat/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-regular-webfont.woff") format("woff"), url("fonts/montserrat/montserrat-regular-webfont.ttf") format("truetype"), url("fonts/montserrat/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url("fonts/montserrat/montserrat-bold-webfont.eot");
+  src: url("fonts/montserrat/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-bold-webfont.woff") format("woff"), url("fonts/montserrat/montserrat-bold-webfont.ttf") format("truetype"), url("fonts/montserrat/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * FIXED for Font-Face Chrome Rendering
+================================================================================ */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'montserrat-regular';
+    src: url("fonts/montserrat/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  }
+  @font-face {
+    font-family: 'montserrat-bold';
+    src: url("fonts/montserrat/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  }
+}
+/*
+ * Merriweather
+================================================================================ */
+@font-face {
+  font-family: 'merriweather-heavy';
+  src: url("fonts/merriweather/merriweather-black-webfont.eot");
+  src: url("fonts/merriweather/merriweather-black-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-black-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-black-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-black-webfont.svg#merriweatherheavy") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-bold';
+  src: url("fonts/merriweather/merriweather-bold-webfont.eot");
+  src: url("fonts/merriweather/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-bold-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-bold-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-bold-italic';
+  src: url("fonts/merriweather/merriweather-bolditalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-bolditalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-bolditalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-bolditalic-webfont.svg#merriweatherbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-heavy-italic';
+  src: url("fonts/merriweather/merriweather-heavyitalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-heavyitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-heavyitalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-heavyitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-heavyitalic-webfont.svg#merriweatherheavy_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-italic';
+  src: url("fonts/merriweather/merriweather-italic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-italic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-italic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-italic-webfont.svg#merriweatheritalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-light';
+  src: url("fonts/merriweather/merriweather-light-webfont.eot");
+  src: url("fonts/merriweather/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-light-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-light-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-light-italic';
+  src: url("fonts/merriweather/merriweather-lightitalic-webfont.eot");
+  src: url("fonts/merriweather/merriweather-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-lightitalic-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-lightitalic-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-lightitalic-webfont.svg#merriweatherlight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'merriweather-regular';
+  src: url("fonts/merriweather/merriweather-regular-webfont.eot");
+  src: url("fonts/merriweather/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/merriweather/merriweather-regular-webfont.woff") format("woff"), url("fonts/merriweather/merriweather-regular-webfont.ttf") format("truetype"), url("fonts/merriweather/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * Montserrat
+================================================================================ */
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url("fonts/montserrat/montserrat-regular-webfont.eot");
+  src: url("fonts/montserrat/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-regular-webfont.woff") format("woff"), url("fonts/montserrat/montserrat-regular-webfont.ttf") format("truetype"), url("fonts/montserrat/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url("fonts/montserrat/montserrat-bold-webfont.eot");
+  src: url("fonts/montserrat/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat/montserrat-bold-webfont.woff") format("woff"), url("fonts/montserrat/montserrat-bold-webfont.ttf") format("truetype"), url("fonts/montserrat/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * FIXED for Font-Face Chrome Rendering
+================================================================================ */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: 'montserrat-regular';
+    src: url("fonts/montserrat/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  }
+  @font-face {
+    font-family: 'montserrat-bold';
+    src: url("fonts/montserrat/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  }
+}
+/*
    TOC:
    a. General Styles
    b. Intro Section
@@ -952,7 +1130,7 @@ dd {
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
-/* line 15, ../components/sass/_layout.scss */
+/* line 146, ../components/sass/_layout.scss */
 body {
   background: #0f0f0f;
 }
@@ -960,7 +1138,7 @@ body {
 /* ------------------------------------------------------------------ */
 /* b. Intro Styles
 /* ------------------------------------------------------------------ */
-/* line 22, ../components/sass/_layout.scss */
+/* line 153, ../components/sass/_layout.scss */
 #intro {
   position: relative;
   padding-bottom: 102px;
@@ -973,14 +1151,14 @@ body {
 
 /* Header
 /* ------------------------------------------------------------------ */
-/* line 34, ../components/sass/_layout.scss */
+/* line 165, ../components/sass/_layout.scss */
 header {
   height: 60px;
   width: 100%;
   position: relative;
 }
 
-/* line 39, ../components/sass/_layout.scss */
+/* line 170, ../components/sass/_layout.scss */
 header #logo {
   width: 120px;
   margin-left: -60px;
@@ -992,7 +1170,7 @@ header #logo {
 
 /* primary navigation
 --------------------------------------------------------------------- */
-/* line 51, ../components/sass/_layout.scss */
+/* line 182, ../components/sass/_layout.scss */
 #nav-wrap, #nav-wrap ul, #nav-wrap li, #nav-wrap a {
   margin: 0;
   padding: 0;
@@ -1001,7 +1179,7 @@ header #logo {
 }
 
 /* nav-wrap */
-/* line 59, ../components/sass/_layout.scss */
+/* line 190, ../components/sass/_layout.scss */
 #nav-wrap {
   font: 11px 'montserrat-bold', sans-serif;
   text-transform: uppercase;
@@ -1014,12 +1192,12 @@ header #logo {
 }
 
 /* hide toggle button */
-/* line 72, ../components/sass/_layout.scss */
+/* line 203, ../components/sass/_layout.scss */
 #nav-wrap > a {
   display: none;
 }
 
-/* line 73, ../components/sass/_layout.scss */
+/* line 204, ../components/sass/_layout.scss */
 #nav-wrap > a {
   text-align: left;
   border: none;
@@ -1034,7 +1212,7 @@ header #logo {
   right: 36px;
 }
 
-/* line 88, ../components/sass/_layout.scss */
+/* line 219, ../components/sass/_layout.scss */
 #nav-wrap > a:before {
   font-family: 'FontAwesome';
   content: "\f0c9";
@@ -1048,7 +1226,7 @@ header #logo {
 }
 
 /* hide menu panel */
-/* line 101, ../components/sass/_layout.scss */
+/* line 232, ../components/sass/_layout.scss */
 #nav-wrap ul#nav {
   padding: 24px 36px 36px 36px;
   height: auto;
@@ -1064,24 +1242,24 @@ header #logo {
 }
 
 /* display toggle buttons */
-/* line 117, ../components/sass/_layout.scss */
+/* line 248, ../components/sass/_layout.scss */
 .no-js #nav-wrap:not(:target) > a:first-of-type,
 .no-js #nav-wrap:target > a:last-of-type {
   display: block;
 }
 
-/* line 121, ../components/sass/_layout.scss */
+/* line 252, ../components/sass/_layout.scss */
 .js #nav-wrap a {
   display: block;
 }
 
 /* display menu panels - no JS*/
-/* line 124, ../components/sass/_layout.scss */
+/* line 255, ../components/sass/_layout.scss */
 .no-js #nav-wrap:target > ul#nav {
   display: block;
 }
 
-/* line 128, ../components/sass/_layout.scss */
+/* line 259, ../components/sass/_layout.scss */
 ul#nav li {
   display: block;
   height: auto;
@@ -1090,7 +1268,7 @@ ul#nav li {
   border-bottom-style: dotted;
 }
 
-/* line 136, ../components/sass/_layout.scss */
+/* line 267, ../components/sass/_layout.scss */
 ul#nav li a {
   display: block;
   width: auto;
@@ -1108,30 +1286,30 @@ ul#nav li a {
   transition: color .2s ease-in-out;
 }
 
-/* line 153, ../components/sass/_layout.scss */
+/* line 284, ../components/sass/_layout.scss */
 ul#nav li a:hover {
   color: #1E732D;
 }
 
-/* line 154, ../components/sass/_layout.scss */
+/* line 285, ../components/sass/_layout.scss */
 ul#nav li a:active {
   background-color: transparent !important;
 }
 
-/* line 155, ../components/sass/_layout.scss */
+/* line 286, ../components/sass/_layout.scss */
 ul#nav li.current a {
   color: #1E732D;
 }
 
 /* Main
 ------------------------------------------------------------------ */
-/* line 160, ../components/sass/_layout.scss */
+/* line 291, ../components/sass/_layout.scss */
 #main {
   margin: 126px auto 0;
   text-align: center;
 }
 
-/* line 164, ../components/sass/_layout.scss */
+/* line 295, ../components/sass/_layout.scss */
 #main h1 {
   font: 42px/1.2em 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1140,7 +1318,7 @@ ul#nav li.current a {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 171, ../components/sass/_layout.scss */
+/* line 302, ../components/sass/_layout.scss */
 #main p {
   font: 16px/33px 'montserrat-regular', sans-serif;
   color: #fff;
@@ -1149,7 +1327,7 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* line 178, ../components/sass/_layout.scss */
+/* line 309, ../components/sass/_layout.scss */
 #main h5 {
   font: 13px/24px 'montserrat-bold', sans-serif;
   color: #1F782F;
@@ -1159,7 +1337,7 @@ ul#nav li.current a {
 }
 
 /* counter */
-/* line 187, ../components/sass/_layout.scss */
+/* line 318, ../components/sass/_layout.scss */
 #main #counter {
   width: 75%;
   color: #fff;
@@ -1167,7 +1345,7 @@ ul#nav li.current a {
   margin: 18px auto 0;
 }
 
-/* line 193, ../components/sass/_layout.scss */
+/* line 324, ../components/sass/_layout.scss */
 #main #counter span {
   font: 70px/1em 'merriweather-bold', serif;
   display: block;
@@ -1178,12 +1356,12 @@ ul#nav li.current a {
   border-left: 1px dotted rgba(255, 255, 255, 0.2);
 }
 
-/* line 202, ../components/sass/_layout.scss */
+/* line 333, ../components/sass/_layout.scss */
 #main #counter span:first-child {
   border-left: none;
 }
 
-/* line 203, ../components/sass/_layout.scss */
+/* line 334, ../components/sass/_layout.scss */
 #main #counter span em {
   font: 11px/18px 'montserrat-regular', sans-serif;
   text-transform: uppercase;
@@ -1196,32 +1374,32 @@ ul#nav li.current a {
 }
 
 /* mailchimp form */
-/* line 215, ../components/sass/_layout.scss */
+/* line 346, ../components/sass/_layout.scss */
 #main #mc_embed_signup {
   clear: both;
   margin: 48px auto 18px;
   width: 50%;
 }
 
-/* line 220, ../components/sass/_layout.scss */
+/* line 351, ../components/sass/_layout.scss */
 #main #mc_embed_signup:before,
 #main #mc_embed_signup:after {
   content: " ";
   display: table;
 }
 
-/* line 225, ../components/sass/_layout.scss */
+/* line 356, ../components/sass/_layout.scss */
 #main #mc_embed_signup:after {
   clear: both;
 }
 
-/* line 229, ../components/sass/_layout.scss */
+/* line 360, ../components/sass/_layout.scss */
 #main #mc_embed_signup input {
   display: inline-block;
   float: left;
 }
 
-/* line 233, ../components/sass/_layout.scss */
+/* line 364, ../components/sass/_layout.scss */
 #main #mc_embed_signup input[type="email"] {
   font-size: 15px;
   height: 54px;
@@ -1233,7 +1411,7 @@ ul#nav li.current a {
   width: 70%;
 }
 
-/* line 243, ../components/sass/_layout.scss */
+/* line 374, ../components/sass/_layout.scss */
 #main #mc_embed_signup input[type="submit"] {
   font-size: 15px;
   line-height: 30px;
@@ -1246,13 +1424,13 @@ ul#nav li.current a {
   width: 30%;
 }
 
-/* line 254, ../components/sass/_layout.scss */
+/* line 385, ../components/sass/_layout.scss */
 #main #mc_embed_signup input[type="submit"]:hover {
   background: #146320;
 }
 
 /* social links */
-/* line 259, ../components/sass/_layout.scss */
+/* line 390, ../components/sass/_layout.scss */
 #main .social {
   clear: both;
   font-size: 22px;
@@ -1261,19 +1439,19 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 266, ../components/sass/_layout.scss */
+/* line 397, ../components/sass/_layout.scss */
 #main .social li {
   display: inline-block;
   margin: 0 12px;
   padding: 0;
 }
 
-/* line 271, ../components/sass/_layout.scss */
+/* line 402, ../components/sass/_layout.scss */
 #main .social li a {
   color: #fff;
 }
 
-/* line 272, ../components/sass/_layout.scss */
+/* line 403, ../components/sass/_layout.scss */
 #main .social li a:hover {
   color: #197C28;
 }
@@ -1281,7 +1459,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
-/* line 279, ../components/sass/_layout.scss */
+/* line 410, ../components/sass/_layout.scss */
 #about {
   background: #1E732D;
   color: #fff;
@@ -1290,36 +1468,36 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
-/* line 286, ../components/sass/_layout.scss */
+/* line 417, ../components/sass/_layout.scss */
 #about a, #about a:visited {
   color: #0C3012;
 }
 
-/* line 287, ../components/sass/_layout.scss */
+/* line 418, ../components/sass/_layout.scss */
 #about a:hover, #about a:focus {
   color: #fff;
 }
 
-/* line 289, ../components/sass/_layout.scss */
+/* line 420, ../components/sass/_layout.scss */
 .section-header,
 .section-content {
   max-width: 880px;
 }
 
-/* line 293, ../components/sass/_layout.scss */
+/* line 424, ../components/sass/_layout.scss */
 #about .section-header {
   text-align: center;
   margin-bottom: 12px;
 }
 
-/* line 297, ../components/sass/_layout.scss */
+/* line 428, ../components/sass/_layout.scss */
 #about .section-header .icon-wrap {
   font-size: 60px;
   margin-bottom: 18px;
   color: #0F3C17;
 }
 
-/* line 302, ../components/sass/_layout.scss */
+/* line 433, ../components/sass/_layout.scss */
 #about .section-header h1 {
   font: 30px/36px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1327,13 +1505,13 @@ ul#nav li.current a {
   padding: 0 15%;
 }
 
-/* line 308, ../components/sass/_layout.scss */
+/* line 439, ../components/sass/_layout.scss */
 #about .section-header p {
   color: #fff;
   padding: 0 3%;
 }
 
-/* line 312, ../components/sass/_layout.scss */
+/* line 443, ../components/sass/_layout.scss */
 #about h3 {
   font: 15px/24px 'montserrat-bold', sans-serif;
   color: #0C3012;
@@ -1344,13 +1522,13 @@ ul#nav li.current a {
 
 /* Call To Action
 ------------------------------------------------------------------ */
-/* line 322, ../components/sass/_layout.scss */
+/* line 453, ../components/sass/_layout.scss */
 #call-to-action {
   padding-top: 30px;
   text-align: center;
 }
 
-/* line 326, ../components/sass/_layout.scss */
+/* line 457, ../components/sass/_layout.scss */
 #call-to-action .section-ads {
   max-width: 880px;
   padding-top: 36px;
@@ -1358,7 +1536,7 @@ ul#nav li.current a {
   border-top: 1px dotted rgba(255, 255, 255, 0.2);
 }
 
-/* line 332, ../components/sass/_layout.scss */
+/* line 463, ../components/sass/_layout.scss */
 #call-to-action h2 {
   font: 30px/36px 'montserrat-bold', sans-serif;
   color: #EBEEEE;
@@ -1367,36 +1545,36 @@ ul#nav li.current a {
   padding: 0 15%;
 }
 
-/* line 339, ../components/sass/_layout.scss */
+/* line 470, ../components/sass/_layout.scss */
 #call-to-action h2 a {
   color: #fff !important;
 }
 
-/* line 340, ../components/sass/_layout.scss */
+/* line 471, ../components/sass/_layout.scss */
 #call-to-action p {
   color: #fff;
   padding: 0 8%;
 }
 
-/* line 344, ../components/sass/_layout.scss */
+/* line 475, ../components/sass/_layout.scss */
 #call-to-action span {
   font-family: 'merriweather-regular', serif;
   color: #0C3012;
 }
 
-/* line 348, ../components/sass/_layout.scss */
+/* line 479, ../components/sass/_layout.scss */
 #call-to-action .action a.button {
   width: 350px;
   margin: 0 auto;
 }
 
-/* line 352, ../components/sass/_layout.scss */
+/* line 483, ../components/sass/_layout.scss */
 #call-to-action .button {
   background: #165622;
   color: #fff !important;
 }
 
-/* line 356, ../components/sass/_layout.scss */
+/* line 487, ../components/sass/_layout.scss */
 #call-to-action .button:hover,
 #call-to-action .button:active {
   background: #FFFFFF;
@@ -1406,30 +1584,30 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* d. Location Section
 /* ------------------------------------------------------------------ */
-/* line 367, ../components/sass/_layout.scss */
+/* line 498, ../components/sass/_layout.scss */
 #location .contacts {
   background: #1F1F1F;
   padding-top: 48px;
   padding-bottom: 18px;
 }
 
-/* line 372, ../components/sass/_layout.scss */
+/* line 503, ../components/sass/_layout.scss */
 #location .contact-details {
   max-width: 900px;
   text-align: center;
 }
 
-/* line 376, ../components/sass/_layout.scss */
+/* line 507, ../components/sass/_layout.scss */
 #location .contacts .row .columns {
   width: 33.33333%;
 }
 
-/* line 377, ../components/sass/_layout.scss */
+/* line 508, ../components/sass/_layout.scss */
 #location .contacts .row .end {
   float: left;
 }
 
-/* line 378, ../components/sass/_layout.scss */
+/* line 509, ../components/sass/_layout.scss */
 #location .contacts h3 {
   font: 14px/24px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1438,7 +1616,7 @@ ul#nav li.current a {
   margin-bottom: 6px;
 }
 
-/* line 385, ../components/sass/_layout.scss */
+/* line 516, ../components/sass/_layout.scss */
 #location .contacts p {
   line-height: 30px;
   font-family: 'montserrat-regular', sans-serif;
@@ -1446,13 +1624,13 @@ ul#nav li.current a {
   color: #6C6C6C;
 }
 
-/* line 391, ../components/sass/_layout.scss */
+/* line 522, ../components/sass/_layout.scss */
 #location .contacts h3 i {
   margin-right: 8px;
 }
 
 /* map */
-/* line 394, ../components/sass/_layout.scss */
+/* line 525, ../components/sass/_layout.scss */
 #map {
   display: block;
   height: 486px;
@@ -1460,12 +1638,12 @@ ul#nav li.current a {
   background-color: #F6F4EF;
 }
 
-/* line 400, ../components/sass/_layout.scss */
+/* line 531, ../components/sass/_layout.scss */
 #map img {
   max-width: inherit !important;
 }
 
-/* line 401, ../components/sass/_layout.scss */
+/* line 532, ../components/sass/_layout.scss */
 #map .map-error {
   text-align: center;
   padding-top: 48px;
@@ -1473,7 +1651,7 @@ ul#nav li.current a {
   font-size: 14px;
 }
 
-/* line 407, ../components/sass/_layout.scss */
+/* line 538, ../components/sass/_layout.scss */
 #map .fa {
   font-size: 60px;
   color: #1F1F1F;
@@ -1482,7 +1660,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 417, ../components/sass/_layout.scss */
+/* line 548, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
   background: #0f0f0f;
@@ -1491,25 +1669,25 @@ footer {
   color: #303030;
 }
 
-/* line 424, ../components/sass/_layout.scss */
+/* line 555, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 425, ../components/sass/_layout.scss */
+/* line 556, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 428, ../components/sass/_layout.scss */
+/* line 559, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 433, ../components/sass/_layout.scss */
+/* line 564, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1517,12 +1695,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 439, ../components/sass/_layout.scss */
+/* line 570, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 442, ../components/sass/_layout.scss */
+/* line 573, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1530,13 +1708,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 448, ../components/sass/_layout.scss */
+/* line 579, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 453, ../components/sass/_layout.scss */
+/* line 584, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1545,7 +1723,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 460, ../components/sass/_layout.scss */
+/* line 591, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1564,7 +1742,481 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 479, ../components/sass/_layout.scss */
+/* line 610, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #165622;
+}
+
+/* screenwidth less than 1140px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1140px) {
+  /* Intro Styles
+  ------------------------------------------------------------------ */
+  /* line 7, ../components/sass/_modules.scss */
+  #intro {
+    min-height: 828px;
+  }
+
+  /* Header
+  ------------------------------------------------------------------ */
+  /* line 11, ../components/sass/_modules.scss */
+  header #logo {
+    top: 66px;
+    width: 100px;
+    margin-left: -50px;
+  }
+
+  /* main
+  ------------------------------------------------------------------ */
+  /* line 19, ../components/sass/_modules.scss */
+  #main {
+    margin-top: 90px;
+  }
+
+  /* line 20, ../components/sass/_modules.scss */
+  #main h1 {
+    font: 38px/1.2em 'montserrat-bold', sans-serif;
+    padding: 0 15%;
+  }
+
+  /* line 24, ../components/sass/_modules.scss */
+  #main p {
+    font: 16px/30px 'montserrat-regular', sans-serif;
+  }
+
+  /* counter */
+  /* line 27, ../components/sass/_modules.scss */
+  #main #counter {
+    width: 70%;
+    margin: 12px auto 0;
+  }
+
+  /* line 31, ../components/sass/_modules.scss */
+  #main #counter span {
+    font: 60px/1em 'merriweather-bold', serif;
+  }
+
+  /* mailchimp form */
+  /* line 34, ../components/sass/_modules.scss */
+  #main #mc_embed_signup {
+    margin-bottom: 6px;
+  }
+}
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 900px) {
+  /* intro styles
+  ------------------------------------------------------------------ */
+  /* line 44, ../components/sass/_modules.scss */
+  #intro {
+    min-height: 792px;
+  }
+
+  /* main
+  ------------------------------------------------------------------ */
+  /* line 48, ../components/sass/_modules.scss */
+  #main h1 {
+    font: 35px/1.2em 'montserrat-bold', sans-serif;
+    padding: 0 8%;
+  }
+
+  /* line 52, ../components/sass/_modules.scss */
+  #main p {
+    font: 16px/30px 'montserrat-regular', sans-serif;
+    padding: 0 10%;
+  }
+
+  /* counter */
+  /* line 58, ../components/sass/_modules.scss */
+  #main #counter {
+    width: 80%;
+  }
+
+  /* line 59, ../components/sass/_modules.scss */
+  #main #counter span {
+    font: 58px/1em 'merriweather-bold', serif;
+  }
+
+  /* mailchimp form */
+  /* line 62, ../components/sass/_modules.scss */
+  #main #mc_embed_signup {
+    width: 65%;
+    margin-top: 36px;
+  }
+
+  /* about section
+   ------------------------------------------------------------------ */
+  /* line 69, ../components/sass/_modules.scss */
+  #about {
+    padding-top: 84px;
+  }
+
+  /* line 70, ../components/sass/_modules.scss */
+  #about .section-header .icon-wrap {
+    font-size: 55px;
+  }
+
+  /* line 71, ../components/sass/_modules.scss */
+  #about .section-header h1,
+  #call-to-action h2 {
+    font: 28px/36px 'montserrat-bold', sans-serif;
+  }
+
+  /* line 74, ../components/sass/_modules.scss */
+  #call-to-action .section-ads {
+    padding-top: 42px;
+  }
+
+  /* line 75, ../components/sass/_modules.scss */
+  #call-to-action p {
+    padding: 0 10%;
+  }
+
+  /* location section
+  ------------------------------------------------------------------ */
+  /* line 79, ../components/sass/_modules.scss */
+  #location .contacts .row .columns {
+    width: 50%;
+  }
+
+  /* line 80, ../components/sass/_modules.scss */
+  #location .contacts .row .end {
+    clear: both;
+  }
+}
+/* mobile
+---------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+  /* intro styles
+  ------------------------------------------------------------------ */
+  /* line 90, ../components/sass/_modules.scss */
+  header #logo {
+    top: 30px;
+    width: 90px;
+    margin-left: -45px;
+  }
+
+  /* primary navigation
+  --------------------------------------------------------------------- */
+  /* line 98, ../components/sass/_modules.scss */
+  #nav-wrap > a {
+    right: 0;
+  }
+
+  /* line 99, ../components/sass/_modules.scss */
+  #nav-wrap ul#nav {
+    background: #111;
+    right: 0;
+  }
+
+  /* main
+  ------------------------------------------------------------------ */
+  /* line 106, ../components/sass/_modules.scss */
+  #main {
+    margin-top: 48px;
+  }
+
+  /* line 107, ../components/sass/_modules.scss */
+  #main h1 {
+    font: 30px/1.2em 'montserrat-bold', sans-serif;
+    text-align: center;
+  }
+
+  /* line 111, ../components/sass/_modules.scss */
+  #main p {
+    font: 14px/24px 'montserrat-regular', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  /* line 116, ../components/sass/_modules.scss */
+  #main h5 {
+    font: 12px/24px 'montserrat-bold', sans-serif;
+    text-align: center;
+  }
+
+  /* counter */
+  /* line 122, ../components/sass/_modules.scss */
+  #main #counter {
+    width: 100%;
+    margin: 12px 0 30px;
+  }
+
+  /* line 126, ../components/sass/_modules.scss */
+  #main #counter span {
+    font: 46px/1em 'merriweather-bold', serif;
+    padding: 9px 0 15px;
+  }
+
+  /* line 130, ../components/sass/_modules.scss */
+  #main #counter span em {
+    font: 9px/18px 'montserrat-regular', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  /* mailchimp form */
+  /* line 138, ../components/sass/_modules.scss */
+  #main #mc_embed_signup {
+    clear: both;
+    margin: 12px auto 0;
+    width: 75%;
+  }
+
+  /* line 143, ../components/sass/_modules.scss */
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+
+  /* line 146, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="email"] {
+    width: 100%;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 152, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="submit"] {
+    width: 100%;
+    border-radius: 3px;
+    float: none;
+  }
+
+  /* social links */
+  /* line 159, ../components/sass/_modules.scss */
+  #main .social {
+    margin: 12px 0 24px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* line 164, ../components/sass/_modules.scss */
+  #main .social li {
+    margin: 0 8px;
+  }
+
+  /* about section
+   -------------------------------------------------------------------- */
+  /* line 169, ../components/sass/_modules.scss */
+  #about {
+    padding-top: 72px;
+  }
+
+  /* line 170, ../components/sass/_modules.scss */
+  #about .icon-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  /* line 174, ../components/sass/_modules.scss */
+  #about .header {
+    text-align: center;
+  }
+
+  /* line 175, ../components/sass/_modules.scss */
+  #about h1 {
+    font: 26px/36px 'montserrat-bold', sans-serif;
+  }
+
+  /* Call To Action Section
+  ----------------------------------------------------------------- */
+  /* line 179, ../components/sass/_modules.scss */
+  #call-to-action h2 {
+    font: 26px/36px 'montserrat-bold', sans-serif;
+  }
+
+  /* line 180, ../components/sass/_modules.scss */
+  #call-to-action .action,
+  #call-to-action .action a {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+
+  /* location section
+  ------------------------------------------------------------------ */
+  /* line 189, ../components/sass/_modules.scss */
+  #location .contacts {
+    padding-top: 54px;
+  }
+
+  /* line 190, ../components/sass/_modules.scss */
+  #location .contacts .row .columns {
+    text-align: center;
+    width: 100%;
+    float: none;
+  }
+
+  /* footer
+  ------------------------------------------------------------------------ */
+  /* line 198, ../components/sass/_modules.scss */
+  footer {
+    padding-bottom: 30px;
+  }
+
+  /* copyright */
+  /* line 201, ../components/sass/_modules.scss */
+  footer .copyright {
+    text-align: center;
+  }
+
+  /* line 202, ../components/sass/_modules.scss */
+  footer .copyright li:before {
+    content: none;
+  }
+
+  /* line 203, ../components/sass/_modules.scss */
+  footer .copyright li {
+    margin: 0;
+    display: block;
+    line-height: 27px;
+  }
+}
+/* screenwidth less than 460px
+  -------------------------------------------------------------------------- */
+@media only screen and (max-width: 460px) {
+  /* intro styles
+  ------------------------------------------------------------------ */
+  /* line 217, ../components/sass/_modules.scss */
+  #intro {
+    min-height: 780px;
+  }
+
+  /* main
+  ------------------------------------------------------------------ */
+  /* line 221, ../components/sass/_modules.scss */
+  #main h1 {
+    font: 28px/1.2em 'montserrat-bold', sans-serif;
+    padding: 0 5px;
+  }
+
+  /* counter */
+  /* line 227, ../components/sass/_modules.scss */
+  #main #counter {
+    width: 100%;
+    margin: 0 0 24px;
+  }
+
+  /* line 231, ../components/sass/_modules.scss */
+  #main #counter span {
+    font: 40px/1em 'merriweather-bold', serif;
+    padding: 9px 0 15px;
+    border: none;
+  }
+
+  /* line 236, ../components/sass/_modules.scss */
+  #main #counter span em {
+    font: 9px/18px 'montserrat-regular', sans-serif;
+    margin-top: 6px;
+  }
+
+  /* mailchimp form */
+  /* line 242, ../components/sass/_modules.scss */
+  #main #mc_embed_signup {
+    width: 80%;
+  }
+
+  /* about section
+   ------------------------------------------------------------------ */
+  /* line 247, ../components/sass/_modules.scss */
+  #about .section-header .icon-wrap {
+    font-size: 50px;
+  }
+
+  /* line 248, ../components/sass/_modules.scss */
+  #about .section-header h1,
+  #call-to-action h2 {
+    font: 24px/30px 'montserrat-bold', sans-serif;
+    padding: 0;
+  }
+
+  /* line 253, ../components/sass/_modules.scss */
+  #about p.lead {
+    font: 16px/33px 'merriweather-light', sans-serif;
+    padding: 0;
+  }
+
+  /* line 257, ../components/sass/_modules.scss */
+  #call-to-action .action a.button {
+    width: 100%;
+  }
+
+  /* footer
+  ------------------------------------------------------------------------ */
+  /* social links */
+  /* line 263, ../components/sass/_modules.scss */
+  footer .social-links {
+    font-size: 20px;
+  }
+
+  /* line 264, ../components/sass/_modules.scss */
+  footer .social-links li {
+    margin-left: 14px;
+  }
+
+  /* Go To Top Button */
+  /* line 267, ../components/sass/_modules.scss */
+  #go-top {
+    right: 15px;
+  }
+}
+/* screenwidth less than 400px
+  -------------------------------------------------------------------------- */
+@media only screen and (max-width: 400px) {
+  /* intro styles
+  ------------------------------------------------------------------ */
+  /* line 277, ../components/sass/_modules.scss */
+  #intro {
+    min-height: 744px;
+  }
+
+  /* main
+   ------------------------------------------------------------- */
+  /* line 281, ../components/sass/_modules.scss */
+  #main {
+    margin-top: 42px;
+  }
+
+  /* line 282, ../components/sass/_modules.scss */
+  #main h1 {
+    font: 25px/1.2em 'montserrat-bold', sans-serif;
+  }
+
+  /* line 283, ../components/sass/_modules.scss */
+  #main p {
+    font: 12px/21px 'montserrat-regular', sans-serif;
+  }
+
+ /* counter
+------------------------------------------------------------- */
+  /* line 287, ../components/sass/_modules.scss */
+  #main #counter span {
+    font: 35px/1em 'merriweather-bold', serif;
+    padding: 9px 0 15px;
+  }
+
+  /* line 291, ../components/sass/_modules.scss */
+  #main #counter span em {
+    font: 9px/18px 'montserrat-regular', sans-serif;
+    margin-top: 6px;
+  }
+
+  /* mailchimp form */
+  /* line 297, ../components/sass/_modules.scss */
+  #main #mc_embed_signup {
+    width: 90%;
+  }
+
+  /* header social links */
+  /* line 300, ../components/sass/_modules.scss */
+  #main .social {
+    font-size: 17px;
+  }
+
+  /* line 301, ../components/sass/_modules.scss */
+  #main .social li {
+    margin: 0 6px;
+  }
 }

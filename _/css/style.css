@@ -1140,7 +1140,7 @@ header #logo {
   clear: both;
   display: none;
   background: #111;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5) !important;
   border-radius: 3px;
   position: relative;
   top: 54px;
@@ -1236,7 +1236,7 @@ ul#nav li.current a {
 /* line 173, ../components/sass/_layout.scss */
 #main h5 {
   font: 13px/24px 'montserrat-bold', sans-serif;
-  color: #1F782F;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
@@ -1259,7 +1259,7 @@ ul#nav li.current a {
   min-width: 25%;
   float: left;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-  border-left: 1px dotted rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 /* line 197, ../components/sass/_layout.scss */
@@ -1279,64 +1279,8 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* mailchimp form */
-/* line 210, ../components/sass/_layout.scss */
-#main #mc_embed_signup {
-  clear: both;
-  margin: 48px auto 18px;
-  width: 50%;
-}
-
-/* line 215, ../components/sass/_layout.scss */
-#main #mc_embed_signup:before,
-#main #mc_embed_signup:after {
-  content: " ";
-  display: table;
-}
-
-/* line 220, ../components/sass/_layout.scss */
-#main #mc_embed_signup:after {
-  clear: both;
-}
-
-/* line 224, ../components/sass/_layout.scss */
-#main #mc_embed_signup input {
-  display: inline-block;
-  float: left;
-}
-
-/* line 228, ../components/sass/_layout.scss */
-#main #mc_embed_signup input[type="email"] {
-  font-size: 15px;
-  height: 54px;
-  line-height: 30px;
-  padding: 12px 15px;
-  border-radius: 3px 0 0 3px;
-  background: #727272;
-  background: rgba(255, 255, 255, 0.2);
-  width: 70%;
-}
-
-/* line 238, ../components/sass/_layout.scss */
-#main #mc_embed_signup input[type="submit"] {
-  font-size: 15px;
-  line-height: 30px;
-  height: 54px;
-  padding: 12px 30px;
-  margin: 0 0 18px 0;
-  border-radius: 0 3px 3px 0;
-  background: #197C28;
-  background: #197c28;
-  width: 30%;
-}
-
-/* line 249, ../components/sass/_layout.scss */
-#main #mc_embed_signup input[type="submit"]:hover {
-  background: #146320;
-}
-
 /* social links */
-/* line 254, ../components/sass/_layout.scss */
+/* line 211, ../components/sass/_layout.scss */
 #main .social {
   clear: both;
   font-size: 22px;
@@ -1345,19 +1289,19 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 261, ../components/sass/_layout.scss */
+/* line 218, ../components/sass/_layout.scss */
 #main .social li {
   display: inline-block;
   margin: 0 12px;
   padding: 0;
 }
 
-/* line 266, ../components/sass/_layout.scss */
+/* line 223, ../components/sass/_layout.scss */
 #main .social li a {
   color: #fff;
 }
 
-/* line 267, ../components/sass/_layout.scss */
+/* line 224, ../components/sass/_layout.scss */
 #main .social li a:hover {
   color: #197C28;
 }
@@ -1365,45 +1309,45 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
-/* line 274, ../components/sass/_layout.scss */
+/* line 231, ../components/sass/_layout.scss */
 #about {
-  background: #1E732D;
+  background: #1d365f;
   color: #fff;
   padding-top: 96px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-/* line 281, ../components/sass/_layout.scss */
+/* line 238, ../components/sass/_layout.scss */
 #about a, #about a:visited {
   color: #0C3012;
 }
 
-/* line 282, ../components/sass/_layout.scss */
+/* line 239, ../components/sass/_layout.scss */
 #about a:hover, #about a:focus {
   color: #fff;
 }
 
-/* line 284, ../components/sass/_layout.scss */
+/* line 241, ../components/sass/_layout.scss */
 .section-header,
 .section-content {
   max-width: 880px;
 }
 
-/* line 288, ../components/sass/_layout.scss */
+/* line 245, ../components/sass/_layout.scss */
 #about .section-header {
   text-align: center;
   margin-bottom: 12px;
 }
 
-/* line 292, ../components/sass/_layout.scss */
+/* line 249, ../components/sass/_layout.scss */
 #about .section-header .icon-wrap {
   font-size: 60px;
   margin-bottom: 18px;
-  color: #0F3C17;
+  color: #dbd6c2;
 }
 
-/* line 297, ../components/sass/_layout.scss */
+/* line 254, ../components/sass/_layout.scss */
 #about .section-header h1 {
   font: 30px/36px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1411,16 +1355,16 @@ ul#nav li.current a {
   padding: 0 15%;
 }
 
-/* line 303, ../components/sass/_layout.scss */
+/* line 260, ../components/sass/_layout.scss */
 #about .section-header p {
   color: #fff;
   padding: 0 3%;
 }
 
-/* line 307, ../components/sass/_layout.scss */
+/* line 264, ../components/sass/_layout.scss */
 #about h3 {
   font: 15px/24px 'montserrat-bold', sans-serif;
-  color: #0C3012;
+  color: #dbd6c2;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-bottom: 12px;
@@ -1428,13 +1372,13 @@ ul#nav li.current a {
 
 /* Call To Action
 ------------------------------------------------------------------ */
-/* line 317, ../components/sass/_layout.scss */
+/* line 274, ../components/sass/_layout.scss */
 #call-to-action {
   padding-top: 30px;
   text-align: center;
 }
 
-/* line 321, ../components/sass/_layout.scss */
+/* line 278, ../components/sass/_layout.scss */
 #call-to-action .section-ads {
   max-width: 880px;
   padding-top: 36px;
@@ -1442,7 +1386,7 @@ ul#nav li.current a {
   border-top: 1px dotted rgba(255, 255, 255, 0.2);
 }
 
-/* line 327, ../components/sass/_layout.scss */
+/* line 284, ../components/sass/_layout.scss */
 #call-to-action h2 {
   font: 30px/36px 'montserrat-bold', sans-serif;
   color: #EBEEEE;
@@ -1451,36 +1395,36 @@ ul#nav li.current a {
   padding: 0 15%;
 }
 
-/* line 334, ../components/sass/_layout.scss */
+/* line 291, ../components/sass/_layout.scss */
 #call-to-action h2 a {
   color: #fff !important;
 }
 
-/* line 335, ../components/sass/_layout.scss */
+/* line 292, ../components/sass/_layout.scss */
 #call-to-action p {
   color: #fff;
   padding: 0 8%;
 }
 
-/* line 339, ../components/sass/_layout.scss */
+/* line 296, ../components/sass/_layout.scss */
 #call-to-action span {
   font-family: 'merriweather-regular', serif;
   color: #0C3012;
 }
 
-/* line 343, ../components/sass/_layout.scss */
+/* line 300, ../components/sass/_layout.scss */
 #call-to-action .action a.button {
   width: 350px;
   margin: 0 auto;
 }
 
-/* line 347, ../components/sass/_layout.scss */
+/* line 304, ../components/sass/_layout.scss */
 #call-to-action .button {
   background: #165622;
   color: #fff !important;
 }
 
-/* line 351, ../components/sass/_layout.scss */
+/* line 308, ../components/sass/_layout.scss */
 #call-to-action .button:hover,
 #call-to-action .button:active {
   background: #FFFFFF;
@@ -1490,30 +1434,30 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* d. Location Section
 /* ------------------------------------------------------------------ */
-/* line 362, ../components/sass/_layout.scss */
+/* line 319, ../components/sass/_layout.scss */
 #location .contacts {
   background: #1F1F1F;
   padding-top: 48px;
   padding-bottom: 18px;
 }
 
-/* line 367, ../components/sass/_layout.scss */
+/* line 324, ../components/sass/_layout.scss */
 #location .contact-details {
   max-width: 900px;
   text-align: center;
 }
 
-/* line 371, ../components/sass/_layout.scss */
+/* line 328, ../components/sass/_layout.scss */
 #location .contacts .row .columns {
   width: 33.33333%;
 }
 
-/* line 372, ../components/sass/_layout.scss */
+/* line 329, ../components/sass/_layout.scss */
 #location .contacts .row .end {
   float: left;
 }
 
-/* line 373, ../components/sass/_layout.scss */
+/* line 330, ../components/sass/_layout.scss */
 #location .contacts h3 {
   font: 14px/24px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1522,7 +1466,7 @@ ul#nav li.current a {
   margin-bottom: 6px;
 }
 
-/* line 380, ../components/sass/_layout.scss */
+/* line 337, ../components/sass/_layout.scss */
 #location .contacts p {
   line-height: 30px;
   font-family: 'montserrat-regular', sans-serif;
@@ -1530,13 +1474,13 @@ ul#nav li.current a {
   color: #6C6C6C;
 }
 
-/* line 386, ../components/sass/_layout.scss */
+/* line 343, ../components/sass/_layout.scss */
 #location .contacts h3 i {
   margin-right: 8px;
 }
 
 /* map */
-/* line 389, ../components/sass/_layout.scss */
+/* line 346, ../components/sass/_layout.scss */
 #map {
   display: block;
   height: 486px;
@@ -1544,12 +1488,12 @@ ul#nav li.current a {
   background-color: #F6F4EF;
 }
 
-/* line 395, ../components/sass/_layout.scss */
+/* line 352, ../components/sass/_layout.scss */
 #map img {
   max-width: inherit !important;
 }
 
-/* line 396, ../components/sass/_layout.scss */
+/* line 353, ../components/sass/_layout.scss */
 #map .map-error {
   text-align: center;
   padding-top: 48px;
@@ -1557,7 +1501,7 @@ ul#nav li.current a {
   font-size: 14px;
 }
 
-/* line 402, ../components/sass/_layout.scss */
+/* line 359, ../components/sass/_layout.scss */
 #map .fa {
   font-size: 60px;
   color: #1F1F1F;
@@ -1566,7 +1510,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 412, ../components/sass/_layout.scss */
+/* line 369, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
   background: #0f0f0f;
@@ -1575,25 +1519,25 @@ footer {
   color: #303030;
 }
 
-/* line 419, ../components/sass/_layout.scss */
+/* line 376, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 420, ../components/sass/_layout.scss */
+/* line 377, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 423, ../components/sass/_layout.scss */
+/* line 380, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 428, ../components/sass/_layout.scss */
+/* line 385, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1601,12 +1545,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 434, ../components/sass/_layout.scss */
+/* line 391, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 437, ../components/sass/_layout.scss */
+/* line 394, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1614,13 +1558,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 443, ../components/sass/_layout.scss */
+/* line 400, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 448, ../components/sass/_layout.scss */
+/* line 405, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1629,7 +1573,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 455, ../components/sass/_layout.scss */
+/* line 412, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1648,7 +1592,7 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 474, ../components/sass/_layout.scss */
+/* line 431, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #165622;
 }
@@ -2119,6 +2063,68 @@ footer .copyright li:first-child:before {
     margin: 0 6px;
   }
 }
+/* mailchimp form */
+/* line 2, ../components/sass/_forms.scss */
+#main #mc_embed_signup {
+  clear: both;
+  margin: 48px auto 18px;
+  width: 50%;
+}
+
+/* line 7, ../components/sass/_forms.scss */
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+  content: " ";
+  display: table;
+}
+
+/* line 12, ../components/sass/_forms.scss */
+#main #mc_embed_signup:after {
+  clear: both;
+}
+
+/* line 16, ../components/sass/_forms.scss */
+#main #mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+
+/* line 20, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="email"] {
+  font-size: 15px;
+  height: 54px;
+  line-height: 30px;
+  padding: 12px 15px;
+  border-radius: 3px 0 0 3px;
+  background: #a7a27c;
+  background: rgba(255, 255, 255, 0.2);
+  width: 70%;
+}
+
+/* line 30, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="submit"] {
+  font-size: 15px;
+  color: #1d365f;
+  line-height: 30px;
+  height: 54px;
+  padding: 12px 30px;
+  margin: 0 0 18px 0;
+  border-radius: 0 3px 3px 0;
+  background: #a7a27c !important;
+  background: rgba(25, 124, 40, 0.5);
+  width: 30%;
+}
+
+/* line 42, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="submit"]:hover {
+  background: #dbd6c2 !important;
+}
+
+/* line 46, ../components/sass/_forms.scss */
+input .email {
+  color: #fff;
+}
+
 /* ------------------------------------------------------------------ */
 /* e. Grid
 --------------------------------------------------------------------- */

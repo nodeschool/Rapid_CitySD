@@ -1140,8 +1140,8 @@ header #logo {
   clear: both;
   display: none;
   background: #111;
-  background: rgba(0, 0, 0, 0.5) !important;
-  border-radius: 3px;
+  background: rgba(167, 162, 124, 0.4) !important;
+  border-radius: 10px;
   position: relative;
   top: 54px;
   right: 30px;
@@ -1311,8 +1311,8 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* line 231, ../components/sass/_layout.scss */
 #about {
-  background: #1d365f;
-  color: #fff;
+  background: #a7a27c;
+  color: #1d365f;
   padding-top: 96px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -1325,7 +1325,7 @@ ul#nav li.current a {
 
 /* line 239, ../components/sass/_layout.scss */
 #about a:hover, #about a:focus {
-  color: #fff;
+  color: #1d365f;
 }
 
 /* line 241, ../components/sass/_layout.scss */
@@ -1344,7 +1344,7 @@ ul#nav li.current a {
 #about .section-header .icon-wrap {
   font-size: 60px;
   margin-bottom: 18px;
-  color: #dbd6c2;
+  color: #1d365f;
 }
 
 /* line 254, ../components/sass/_layout.scss */

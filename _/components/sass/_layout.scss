@@ -100,8 +100,8 @@ header #logo {
    clear: both;
    display: none;
    background: #111;
-   background: rgba(0, 0, 0, 0.5) !important;
-   border-radius: 3px;
+   background: rgba(167, 162, 124, 0.4) !important;
+   border-radius: 10px;
 
    position: relative;
    top: 54px;
@@ -229,14 +229,14 @@ ul#nav li.current a { color: #1E732D; }
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #1d365f;
-  color: #fff;
+  background: #a7a27c;
+  color: #1d365f;
    padding-top: 96px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 #about a, #about a:visited  { color: #0C3012; }
-#about a:hover, #about a:focus { color: #fff; }
+#about a:hover, #about a:focus { color: #1d365f; }
 
 .section-header,
 .section-content {
@@ -249,7 +249,7 @@ ul#nav li.current a { color: #1E732D; }
 #about .section-header .icon-wrap {
   font-size: 60px;
   margin-bottom: 18px;
-  color: #dbd6c2;
+  color: #1d365f;
 }
 #about .section-header h1 {
    font: 30px/36px 'montserrat-bold', sans-serif;

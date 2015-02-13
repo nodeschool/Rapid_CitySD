@@ -1303,7 +1303,7 @@ ul#nav li.current a {
 
 /* line 224, ../components/sass/_layout.scss */
 #main .social li a:hover {
-  color: #197C28;
+  color: #dbd6c2;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1383,7 +1383,7 @@ ul#nav li.current a {
   max-width: 880px;
   padding-top: 36px;
   border-top: 1px dotted #4b8f57;
-  border-top: 1px dotted rgba(255, 255, 255, 0.2);
+  border-top: 2px dotted rgba(29, 54, 95, 0.5);
 }
 
 /* line 284, ../components/sass/_layout.scss */
@@ -1481,38 +1481,10 @@ ul#nav li.current a {
   margin-right: 8px;
 }
 
-/* map */
-/* line 349, ../components/sass/_layout.scss */
-#map {
-  display: block;
-  height: 486px;
-  width: 100%;
-  background-color: #F6F4EF;
-}
-
-/* line 355, ../components/sass/_layout.scss */
-#map img {
-  max-width: inherit !important;
-}
-
-/* line 356, ../components/sass/_layout.scss */
-#map .map-error {
-  text-align: center;
-  padding-top: 48px;
-  color: #C0B491;
-  font-size: 14px;
-}
-
-/* line 362, ../components/sass/_layout.scss */
-#map .fa {
-  font-size: 60px;
-  color: #1F1F1F;
-}
-
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 372, ../components/sass/_layout.scss */
+/* line 356, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
   background: #0f0f0f;
@@ -1521,25 +1493,25 @@ footer {
   color: #303030;
 }
 
-/* line 380, ../components/sass/_layout.scss */
+/* line 364, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 381, ../components/sass/_layout.scss */
+/* line 365, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 384, ../components/sass/_layout.scss */
+/* line 368, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 389, ../components/sass/_layout.scss */
+/* line 373, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1547,12 +1519,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 395, ../components/sass/_layout.scss */
+/* line 379, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 398, ../components/sass/_layout.scss */
+/* line 382, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1560,13 +1532,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 404, ../components/sass/_layout.scss */
+/* line 388, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 409, ../components/sass/_layout.scss */
+/* line 393, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1575,7 +1547,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 416, ../components/sass/_layout.scss */
+/* line 400, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1594,11 +1566,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 436, ../components/sass/_layout.scss */
+/* line 420, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #dbd6c2;
 }
-/* line 437, ../components/sass/_layout.scss */
+/* line 421, ../components/sass/_layout.scss */
 #go-top a:hover .fa-arrow-up {
   color: #1d365f;
 }

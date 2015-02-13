@@ -1053,7 +1053,7 @@ body {
 #intro {
   position: relative;
   padding-bottom: 102px;
-  min-height: 900px;
+  min-height: 700px;
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat center center;
   background-size: cover !important;
@@ -1311,10 +1311,10 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* line 231, ../components/sass/_layout.scss */
 #about {
-  background: #a7a27c;
+  background: #fff;
   color: #1d365f;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  padding-top: 40px;
+  padding-bottom: 60px;
   overflow: hidden;
 }
 
@@ -1350,14 +1350,14 @@ ul#nav li.current a {
 /* line 254, ../components/sass/_layout.scss */
 #about .section-header h1 {
   font: 30px/36px 'montserrat-bold', sans-serif;
-  color: #fff;
+  color: #1d365f;
   margin-bottom: 12px;
   padding: 0 15%;
 }
 
 /* line 260, ../components/sass/_layout.scss */
 #about .section-header p {
-  color: #fff;
+  color: #1d365f;
   padding: 0 3%;
 }
 
@@ -1437,30 +1437,30 @@ ul#nav li.current a {
 /* d. Location Section
 /* ------------------------------------------------------------------ */
 /* line 322, ../components/sass/_layout.scss */
-#location .contacts {
+#contact .contacts {
   background: #1F1F1F;
   padding-top: 48px;
   padding-bottom: 18px;
 }
 
 /* line 327, ../components/sass/_layout.scss */
-#location .contact-details {
+#contact .contact-details {
   max-width: 900px;
   text-align: center;
 }
 
 /* line 331, ../components/sass/_layout.scss */
-#location .contacts .row .columns {
+#contact .contacts .row .columns {
   width: 33.33333%;
 }
 
 /* line 332, ../components/sass/_layout.scss */
-#location .contacts .row .end {
+#contact .contacts .row .end {
   float: left;
 }
 
 /* line 333, ../components/sass/_layout.scss */
-#location .contacts h3 {
+#contact .contacts h3 {
   font: 14px/24px 'montserrat-bold', sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -1469,7 +1469,7 @@ ul#nav li.current a {
 }
 
 /* line 340, ../components/sass/_layout.scss */
-#location .contacts p {
+#contact .contacts p {
   line-height: 30px;
   font-family: 'montserrat-regular', sans-serif;
   font-size: 14px;
@@ -1477,14 +1477,97 @@ ul#nav li.current a {
 }
 
 /* line 346, ../components/sass/_layout.scss */
-#location .contacts h3 i {
+#contact .contacts h3 i {
   margin-right: 8px;
+}
+
+/* mailchimp form */
+/* line 349, ../components/sass/_layout.scss */
+#mc_embed_signup {
+  margin-left: 400px;
+  width: 50%;
+}
+
+/* line 354, ../components/sass/_layout.scss */
+#mc_embed_signup:before,
+#mc_embed_signup:after {
+  content: " ";
+  display: table;
+}
+
+/* line 359, ../components/sass/_layout.scss */
+#mc_embed_signup:after {
+  clear: both;
+}
+
+/* line 363, ../components/sass/_layout.scss */
+#mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+
+/* line 367, ../components/sass/_layout.scss */
+#mc_embed_signup input[type="email"] {
+  font-size: 15px;
+  height: 54px;
+  line-height: 30px;
+  padding: 12px 15px;
+  border-radius: 3px 0 0 3px;
+  background: #727272;
+  background: rgba(255, 255, 255, 0.2);
+  width: 60%;
+}
+
+/* line 377, ../components/sass/_layout.scss */
+#mc_embed_signup input[type="submit"] {
+  font-size: 15px;
+  line-height: 30px;
+  height: 54px;
+  padding: 12px 30px;
+  margin: 0 0 18px 0;
+  border-radius: 0 3px 3px 0;
+  background: #197C28;
+  background: #197c28;
+  width: 20%;
+}
+
+/* line 388, ../components/sass/_layout.scss */
+#mc_embed_signup input[type="submit"]:hover {
+  background: #146320;
+}
+
+/* social links */
+/* line 394, ../components/sass/_layout.scss */
+#contact .social {
+  text-align: center;
+  clear: both;
+  font-size: 22px;
+  margin: 12px 0 24px;
+  padding: 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* line 402, ../components/sass/_layout.scss */
+#contact .social li {
+  display: inline-block;
+  margin: 0 12px;
+  padding: 0;
+}
+
+/* line 407, ../components/sass/_layout.scss */
+#contact .social li a {
+  color: #fff;
+}
+
+/* line 408, ../components/sass/_layout.scss */
+#contact .social li a:hover {
+  color: #dbd6c2;
 }
 
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 356, ../components/sass/_layout.scss */
+/* line 418, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
   background: #0f0f0f;
@@ -1493,25 +1576,25 @@ footer {
   color: #303030;
 }
 
-/* line 364, ../components/sass/_layout.scss */
+/* line 426, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 365, ../components/sass/_layout.scss */
+/* line 427, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 368, ../components/sass/_layout.scss */
+/* line 430, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 373, ../components/sass/_layout.scss */
+/* line 435, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1519,12 +1602,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 379, ../components/sass/_layout.scss */
+/* line 441, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 382, ../components/sass/_layout.scss */
+/* line 444, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1532,13 +1615,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 388, ../components/sass/_layout.scss */
+/* line 450, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 393, ../components/sass/_layout.scss */
+/* line 455, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1547,7 +1630,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 400, ../components/sass/_layout.scss */
+/* line 462, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1566,11 +1649,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 420, ../components/sass/_layout.scss */
+/* line 482, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #dbd6c2;
 }
-/* line 421, ../components/sass/_layout.scss */
+/* line 483, ../components/sass/_layout.scss */
 #go-top a:hover .fa-arrow-up {
   color: #1d365f;
 }

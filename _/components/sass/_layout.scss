@@ -22,7 +22,7 @@ body { background: #0f0f0f; }
 #intro {
    position: relative;
    padding-bottom: 102px;
-   min-height: 900px;
+   min-height: 700px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
@@ -229,10 +229,10 @@ ul#nav li.current a { color: #1E732D; }
 /* ------------------------------------------------------------------ */
 
 #about {
-  background: #a7a27c;
+  background: #fff;
   color: #1d365f;
-   padding-top: 96px;
-   padding-bottom: 72px;
+   padding-top: 40px;
+   padding-bottom: 60px;
    overflow: hidden;
 }
 #about a, #about a:visited  { color: #0C3012; }
@@ -253,12 +253,12 @@ ul#nav li.current a { color: #1E732D; }
 }
 #about .section-header h1 {
    font: 30px/36px 'montserrat-bold', sans-serif;
-   color: #fff;
+   color: #1d365f;
    margin-bottom: 12px;
    padding: 0 15%;
 }
 #about .section-header p {
-  color: #fff;
+  color: #1d365f;
   padding: 0 3%;
 }
 #about h3 {
@@ -319,31 +319,93 @@ ul#nav li.current a { color: #1E732D; }
 /* d. Location Section
 /* ------------------------------------------------------------------ */
 
-#location .contacts {
+#contact .contacts {
   background: #1F1F1F;
   padding-top: 48px;
    padding-bottom: 18px;
 }
-#location .contact-details {
+#contact .contact-details {
   max-width: 900px;
   text-align: center;
 }
-#location .contacts .row .columns {	width: 33.33333%; }
-#location .contacts .row .end { float: left; }
-#location .contacts h3 {
+#contact .contacts .row .columns {	width: 33.33333%; }
+#contact .contacts .row .end { float: left; }
+#contact .contacts h3 {
    font: 14px/24px 'montserrat-bold', sans-serif;
    color: #fff;
    text-transform: uppercase;
    letter-spacing: 1.5px;
    margin-bottom: 6px;
 }
-#location .contacts p {
+#contact .contacts p {
    line-height: 30px;
    font-family: 'montserrat-regular', sans-serif;
    font-size: 14px;
    color: #6C6C6C;
 }
-#location .contacts h3 i {	margin-right: 8px; }
+#contact .contacts h3 i {	margin-right: 8px; }
+
+/* mailchimp form */
+ #mc_embed_signup {
+
+  margin-left: 400px;
+  width: 50%;
+}
+ #mc_embed_signup:before,
+ #mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+ #mc_embed_signup:after {
+    clear: both;
+}
+
+ #mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+ #mc_embed_signup input[type="email"] {
+  font-size: 15px;
+  height: 54px;
+  line-height: 30px;
+  padding: 12px 15px;
+  border-radius: 3px 0 0 3px;
+  background: #727272;
+  background: rgba(255, 255, 255, .2);
+  width: 60%;
+}
+#mc_embed_signup input[type="submit"] {
+  font-size: 15px;
+  line-height: 30px;
+  height: 54px;
+  padding: 12px 30px;
+  margin: 0 0 18px 0;
+  border-radius: 0 3px 3px 0;
+  background: #197C28;
+  background: rgba(25, 124, 40, 1);
+  width: 20%;
+}
+#mc_embed_signup input[type="submit"]:hover {
+  background: #146320;
+}
+
+
+/* social links */
+#contact .social {
+  text-align: center;
+  clear: both;
+  font-size: 22px;
+   margin: 12px 0 24px;
+   padding: 0;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+#contact .social li {
+   display: inline-block;
+   margin: 0 12px;
+   padding: 0;
+}
+#contact .social li a { color: #fff; }
+#contact .social li a:hover { color: #dbd6c2; }
 
 
 

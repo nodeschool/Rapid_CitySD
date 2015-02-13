@@ -1521,25 +1521,25 @@ footer {
   color: #303030;
 }
 
-/* line 379, ../components/sass/_layout.scss */
+/* line 380, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 380, ../components/sass/_layout.scss */
+/* line 381, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 383, ../components/sass/_layout.scss */
+/* line 384, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 388, ../components/sass/_layout.scss */
+/* line 389, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1547,12 +1547,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 394, ../components/sass/_layout.scss */
+/* line 395, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 397, ../components/sass/_layout.scss */
+/* line 398, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1560,13 +1560,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 403, ../components/sass/_layout.scss */
+/* line 404, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 408, ../components/sass/_layout.scss */
+/* line 409, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1575,7 +1575,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 415, ../components/sass/_layout.scss */
+/* line 416, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1594,11 +1594,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 434, ../components/sass/_layout.scss */
+/* line 436, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #dbd6c2;
 }
-/* line 435, ../components/sass/_layout.scss */
+/* line 437, ../components/sass/_layout.scss */
 #go-top a:hover .fa-arrow-up {
   color: #1d365f;
 }

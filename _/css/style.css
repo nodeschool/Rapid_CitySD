@@ -1481,63 +1481,8 @@ ul#nav li.current a {
   margin-right: 8px;
 }
 
-/* mailchimp form */
-/* line 349, ../components/sass/_layout.scss */
-#mc_embed_signup {
-  margin-left: 400px;
-  width: 50%;
-}
-
-/* line 354, ../components/sass/_layout.scss */
-#mc_embed_signup:before,
-#mc_embed_signup:after {
-  content: " ";
-  display: table;
-}
-
-/* line 359, ../components/sass/_layout.scss */
-#mc_embed_signup:after {
-  clear: both;
-}
-
-/* line 363, ../components/sass/_layout.scss */
-#mc_embed_signup input {
-  display: inline-block;
-  float: left;
-}
-
-/* line 367, ../components/sass/_layout.scss */
-#mc_embed_signup input[type="email"] {
-  font-size: 15px;
-  height: 54px;
-  line-height: 30px;
-  padding: 12px 15px;
-  border-radius: 3px 0 0 3px;
-  background: #727272;
-  background: rgba(255, 255, 255, 0.2);
-  width: 60%;
-}
-
-/* line 377, ../components/sass/_layout.scss */
-#mc_embed_signup input[type="submit"] {
-  font-size: 15px;
-  line-height: 30px;
-  height: 54px;
-  padding: 12px 30px;
-  margin: 0 0 18px 0;
-  border-radius: 0 3px 3px 0;
-  background: #197C28;
-  background: #197c28;
-  width: 20%;
-}
-
-/* line 388, ../components/sass/_layout.scss */
-#mc_embed_signup input[type="submit"]:hover {
-  background: #146320;
-}
-
 /* social links */
-/* line 394, ../components/sass/_layout.scss */
+/* line 352, ../components/sass/_layout.scss */
 #contact .social {
   text-align: center;
   clear: both;
@@ -1547,19 +1492,19 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 402, ../components/sass/_layout.scss */
+/* line 360, ../components/sass/_layout.scss */
 #contact .social li {
   display: inline-block;
   margin: 0 12px;
   padding: 0;
 }
 
-/* line 407, ../components/sass/_layout.scss */
+/* line 365, ../components/sass/_layout.scss */
 #contact .social li a {
   color: #fff;
 }
 
-/* line 408, ../components/sass/_layout.scss */
+/* line 366, ../components/sass/_layout.scss */
 #contact .social li a:hover {
   color: #dbd6c2;
 }
@@ -1567,7 +1512,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 418, ../components/sass/_layout.scss */
+/* line 376, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
   background: #0f0f0f;
@@ -1576,25 +1521,25 @@ footer {
   color: #303030;
 }
 
-/* line 426, ../components/sass/_layout.scss */
+/* line 384, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 427, ../components/sass/_layout.scss */
+/* line 385, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 430, ../components/sass/_layout.scss */
+/* line 388, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 435, ../components/sass/_layout.scss */
+/* line 393, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1602,12 +1547,12 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 441, ../components/sass/_layout.scss */
+/* line 399, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 444, ../components/sass/_layout.scss */
+/* line 402, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
@@ -1615,13 +1560,13 @@ footer .copyright li:before {
   color: #1B6728;
 }
 
-/* line 450, ../components/sass/_layout.scss */
+/* line 408, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 455, ../components/sass/_layout.scss */
+/* line 413, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1630,7 +1575,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 462, ../components/sass/_layout.scss */
+/* line 420, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1649,11 +1594,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 482, ../components/sass/_layout.scss */
+/* line 440, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #dbd6c2;
 }
-/* line 483, ../components/sass/_layout.scss */
+/* line 441, ../components/sass/_layout.scss */
 #go-top a:hover .fa-arrow-up {
   color: #1d365f;
 }
@@ -2126,59 +2071,41 @@ footer .copyright li:first-child:before {
 }
 /* mailchimp form */
 /* line 2, ../components/sass/_forms.scss */
-#main #mc_embed_signup {
+.mc_embed_signup {
   clear: both;
-  margin: 48px auto 18px;
+  margin: 0;
+  text-align: center;
   width: 50%;
 }
 
-/* line 7, ../components/sass/_forms.scss */
-#main #mc_embed_signup:before,
-#main #mc_embed_signup:after {
-  content: " ";
-  display: table;
-}
-
-/* line 12, ../components/sass/_forms.scss */
-#main #mc_embed_signup:after {
-  clear: both;
-}
-
-/* line 16, ../components/sass/_forms.scss */
-#main #mc_embed_signup input {
-  display: inline-block;
-  float: left;
-}
-
-/* line 20, ../components/sass/_forms.scss */
-#main #mc_embed_signup input[type="email"] {
+/* line 14, ../components/sass/_forms.scss */
+.mc_embed_signup input[type="email"] {
   font-size: 15px;
   height: 54px;
   line-height: 30px;
   padding: 12px 15px;
   border-radius: 3px 0 0 3px;
-  background: #a7a27c;
+  background: #727272;
   background: rgba(255, 255, 255, 0.2);
-  width: 70%;
+  width: 50%;
 }
 
-/* line 30, ../components/sass/_forms.scss */
-#main #mc_embed_signup input[type="submit"] {
+/* line 25, ../components/sass/_forms.scss */
+.mc_embed_signup input[type="submit"] {
   font-size: 15px;
-  color: #1d365f;
   line-height: 30px;
   height: 54px;
   padding: 12px 30px;
   margin: 0 0 18px 0;
   border-radius: 0 3px 3px 0;
-  background: #a7a27c !important;
-  background: rgba(25, 124, 40, 0.5);
+  background: #197C28;
+  background: #197c28;
   width: 30%;
 }
 
-/* line 42, ../components/sass/_forms.scss */
-#main #mc_embed_signup input[type="submit"]:hover {
-  background: #dbd6c2 !important;
+/* line 36, ../components/sass/_forms.scss */
+.mc_embed_signup input[type="submit"]:hover {
+  background: #146320;
 }
 
 /* ------------------------------------------------------------------ */

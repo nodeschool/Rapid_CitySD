@@ -324,7 +324,7 @@ ul#nav li.current a { color: #1E732D; }
   padding-top: 48px;
    padding-bottom: 18px;
 }
-#contact .contact-details {
+#contact  .contact-details {
   max-width: 900px;
   text-align: center;
 }
@@ -345,52 +345,10 @@ ul#nav li.current a { color: #1E732D; }
 }
 #contact .contacts h3 i {	margin-right: 8px; }
 
-/* mailchimp form */
- #mc_embed_signup {
-
-  margin-left: 400px;
-  width: 50%;
-}
- #mc_embed_signup:before,
- #mc_embed_signup:after {
-    content: " ";
-    display: table;
-}
- #mc_embed_signup:after {
-    clear: both;
-}
-
- #mc_embed_signup input {
-  display: inline-block;
-  float: left;
-}
- #mc_embed_signup input[type="email"] {
-  font-size: 15px;
-  height: 54px;
-  line-height: 30px;
-  padding: 12px 15px;
-  border-radius: 3px 0 0 3px;
-  background: #727272;
-  background: rgba(255, 255, 255, .2);
-  width: 60%;
-}
-#mc_embed_signup input[type="submit"] {
-  font-size: 15px;
-  line-height: 30px;
-  height: 54px;
-  padding: 12px 30px;
-  margin: 0 0 18px 0;
-  border-radius: 0 3px 3px 0;
-  background: #197C28;
-  background: rgba(25, 124, 40, 1);
-  width: 20%;
-}
-#mc_embed_signup input[type="submit"]:hover {
-  background: #146320;
-}
 
 
 /* social links */
+
 #contact .social {
   text-align: center;
   clear: both;

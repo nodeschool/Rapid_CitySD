@@ -2073,7 +2073,7 @@ footer .copyright li:first-child:before {
 /* line 2, ../components/sass/_forms.scss */
 .mc_embed_signup {
   clear: both;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   width: 50%;
 }
@@ -2101,13 +2101,31 @@ footer .copyright li:first-child:before {
   background: #197C28;
   background: #197c28;
   width: 30%;
+  position: relative;
+  top: 2px;
 }
 
-/* line 36, ../components/sass/_forms.scss */
+/* line 38, ../components/sass/_forms.scss */
 .mc_embed_signup input[type="submit"]:hover {
   background: #146320;
 }
 
+@media screen and (max-width: 960px) {
+  /* line 42, ../components/sass/_forms.scss */
+  .mc_embed_signup {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 720px) {
+  /* line 47, ../components/sass/_forms.scss */
+  .mc_embed_signup {
+    width: 100%;
+  }
+  /* line 49, ../components/sass/_forms.scss */
+  .mc_embed_signup input[type="submit"] {
+    padding: 12px 15px;
+  }
+}
 /* ------------------------------------------------------------------ */
 /* e. Grid
 --------------------------------------------------------------------- */

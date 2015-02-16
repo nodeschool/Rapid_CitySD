@@ -1,7 +1,7 @@
 /* mailchimp form */
 .mc_embed_signup {
   clear:both;
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   width: 50%;
 }
@@ -32,7 +32,22 @@
   background: #197C28;
   background: rgba(25, 124, 40, 1);
   width: 30%;
+  position:relative; 
+  top:2px;
 }
 .mc_embed_signup input[type="submit"]:hover {
   background: #146320;
+}
+@media screen and (max-width:960px) {
+  .mc_embed_signup {
+    width:75%;
+  }
+}
+@media screen and (max-width:720px) {
+  .mc_embed_signup {
+    width:100%;
+    input[type="submit"] {
+      padding: 12px 15px;
+    }
+  }
 }

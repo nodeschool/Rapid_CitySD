@@ -1,53 +1,59 @@
 /* mailchimp form */
-.mc_embed_signup {
-  clear:both;
-  margin: 0 auto;
-  text-align: center;
-  width: 50%;
+#main #mc_embed_signup {
+	clear: both;
+	margin: 48px auto 18px;
+	width: 50%;
+}
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+    content: " ";
+    display: table;
+}
+#main #mc_embed_signup:after {
+    clear: both;
 }
 
-.mc_embed_signup input{
+#main #mc_embed_signup input {
+	display: inline-block;
+	float: left;
+}
+#main #mc_embed_signup input[type="email"] {
+	font-size: 15px;
+	height: 54px;
+	line-height: 30px;
+	padding: 12px 15px;
+	border-radius: 3px 0 0 3px;
+	background: #727272;
+	background: rgba(255, 255, 255, .2);
+	width: 70%;
+}
+#main #mc_embed_signup input[type="submit"] {
+	font-size: 15px;
+	line-height: 30px;
+	height: 54px;
+	padding: 12px 30px;
+	margin: 0 0 18px 0;
+	border-radius: 0 3px 3px 0;
+	background: #197C28;
+	background: rgba(25, 124, 40, 1);
+	width: 30%;
+}
+#main #mc_embed_signup input[type="submit"]:hover {
+	background: #146320;
+}
 
-
-
+/* social links */
+#main .social {
+	clear: both;
+	font-size: 22px;
+   margin: 12px 0 24px;
+   padding: 0;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
-.mc_embed_signup input[type="email"] {
-  font-size: 15px;
-  height: 54px;
-  line-height: 30px;
-  padding: 12px 15px;
-  border-radius: 3px 0 0 3px;
-  background: #727272;
-  background: rgba(255, 255, 255, .2);
-  width: 50%;
+#main .social li {
+   display: inline-block;
+   margin: 0 12px;
+   padding: 0;
 }
-
-.mc_embed_signup input[type="submit"] {
-  font-size: 15px;
-  line-height: 30px;
-  height: 54px;
-  padding: 12px 30px;
-  margin: 0 0 18px 0;
-  border-radius: 0 3px 3px 0;
-  background: #197C28;
-  background: rgba(25, 124, 40, 1);
-  width: 30%;
-  position:relative; 
-  top:2px;
-}
-.mc_embed_signup input[type="submit"]:hover {
-  background: #146320;
-}
-@media screen and (max-width:960px) {
-  .mc_embed_signup {
-    width:75%;
-  }
-}
-@media screen and (max-width:720px) {
-  .mc_embed_signup {
-    width:100%;
-    input[type="submit"] {
-      padding: 12px 15px;
-    }
-  }
-}
+#main .social li a { color: #fff; }
+#main .social li a:hover { color: #197C28; }

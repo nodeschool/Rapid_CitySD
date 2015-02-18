@@ -1053,7 +1053,7 @@ body {
 #intro {
   position: relative;
   padding-bottom: 102px;
-  min-height: 700px;
+  min-height: 850px;
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat center center;
   background-size: cover !important;
@@ -2071,15 +2071,32 @@ footer .copyright li:first-child:before {
 }
 /* mailchimp form */
 /* line 2, ../components/sass/_forms.scss */
-.mc_embed_signup {
+#main #mc_embed_signup {
   clear: both;
-  margin: 0 auto;
-  text-align: center;
+  margin: 48px auto 18px;
   width: 50%;
 }
 
-/* line 14, ../components/sass/_forms.scss */
-.mc_embed_signup input[type="email"] {
+/* line 7, ../components/sass/_forms.scss */
+#main #mc_embed_signup:before,
+#main #mc_embed_signup:after {
+  content: " ";
+  display: table;
+}
+
+/* line 12, ../components/sass/_forms.scss */
+#main #mc_embed_signup:after {
+  clear: both;
+}
+
+/* line 16, ../components/sass/_forms.scss */
+#main #mc_embed_signup input {
+  display: inline-block;
+  float: left;
+}
+
+/* line 20, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="email"] {
   font-size: 15px;
   height: 54px;
   line-height: 30px;
@@ -2087,11 +2104,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px 0 0 3px;
   background: #727272;
   background: rgba(255, 255, 255, 0.2);
-  width: 50%;
+  width: 70%;
 }
 
-/* line 25, ../components/sass/_forms.scss */
-.mc_embed_signup input[type="submit"] {
+/* line 30, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="submit"] {
   font-size: 15px;
   line-height: 30px;
   height: 54px;
@@ -2101,31 +2118,40 @@ footer .copyright li:first-child:before {
   background: #197C28;
   background: #197c28;
   width: 30%;
-  position: relative;
-  top: 2px;
 }
 
-/* line 38, ../components/sass/_forms.scss */
-.mc_embed_signup input[type="submit"]:hover {
+/* line 41, ../components/sass/_forms.scss */
+#main #mc_embed_signup input[type="submit"]:hover {
   background: #146320;
 }
 
-@media screen and (max-width: 960px) {
-  /* line 42, ../components/sass/_forms.scss */
-  .mc_embed_signup {
-    width: 75%;
-  }
+/* social links */
+/* line 46, ../components/sass/_forms.scss */
+#main .social {
+  clear: both;
+  font-size: 22px;
+  margin: 12px 0 24px;
+  padding: 0;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
-@media screen and (max-width: 720px) {
-  /* line 47, ../components/sass/_forms.scss */
-  .mc_embed_signup {
-    width: 100%;
-  }
-  /* line 49, ../components/sass/_forms.scss */
-  .mc_embed_signup input[type="submit"] {
-    padding: 12px 15px;
-  }
+
+/* line 53, ../components/sass/_forms.scss */
+#main .social li {
+  display: inline-block;
+  margin: 0 12px;
+  padding: 0;
 }
+
+/* line 58, ../components/sass/_forms.scss */
+#main .social li a {
+  color: #fff;
+}
+
+/* line 59, ../components/sass/_forms.scss */
+#main .social li a:hover {
+  color: #197C28;
+}
+
 /* ------------------------------------------------------------------ */
 /* e. Grid
 --------------------------------------------------------------------- */

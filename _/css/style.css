@@ -2592,3 +2592,21 @@ properly.
   margin-right: auto !important;
   text-align: center !important;
 }
+
+/* line 1, ../components/sass/_events.scss */
+#events ul {
+  margin-top: 40px;
+}
+/* line 3, ../components/sass/_events.scss */
+#events ul li {
+  text-align: left;
+  text-indent: 20px;
+}
+/* line 6, ../components/sass/_events.scss */
+#events ul li time {
+  display: block;
+  color: #a7a27c;
+  font-style: italic;
+  text-indent: -20px;
+  margin-bottom: 10px;
+}

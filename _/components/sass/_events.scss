@@ -1,0 +1,14 @@
+#events ul {
+  margin-top:40px;
+  li {
+    text-align:left;
+    text-indent:20px;
+    time {
+      display:block;
+      color: #a7a27c;
+      font-style:italic;
+      text-indent:-20px;
+      margin-bottom:10px;
+    }
+  }
+}

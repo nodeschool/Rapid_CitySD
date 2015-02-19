@@ -30,16 +30,17 @@
 #main #mc_embed_signup input[type="submit"] {
 	font-size: 15px;
 	line-height: 30px;
+  color: #1d365f;
 	height: 54px;
 	padding: 12px 30px;
 	margin: 0 0 18px 0;
 	border-radius: 0 3px 3px 0;
-	background: #197C28;
-	background: rgba(25, 124, 40, 1);
+	background: #a7a27c;
+	background: rgba(167,162,124, 1);
 	width: 30%;
 }
 #main #mc_embed_signup input[type="submit"]:hover {
-	background: #146320;
+	background: #dbd6c2;
 }
 
 /* social links */

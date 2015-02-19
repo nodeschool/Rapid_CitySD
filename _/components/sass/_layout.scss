@@ -262,7 +262,7 @@ ul#nav li.current a { color: #1E732D; }
 }
 #about .section-header h1 {
    font: 30px/36px 'montserrat-bold', sans-serif;
-   color: #1d365f;
+   color: #a7a27c;
    margin-bottom: 12px;
    padding: 0 15%;
 }
@@ -272,110 +272,20 @@ ul#nav li.current a { color: #1E732D; }
 }
 #about h3 {
    font: 15px/24px 'montserrat-bold', sans-serif;
-   color: #dbd6c2;
+   color: #a7a27c;
    text-transform: uppercase;
    letter-spacing: 3px;
    margin-bottom: 12px;
 }
 
-/* Call To Action
------------------------------------------------------------------- */
-#call-to-action {
-  padding-top: 30px;
-   text-align: center;
-}
-#call-to-action .section-ads {
-  max-width: 880px;
-  padding-top: 36px;
-  border-top: 1px dotted #4b8f57;
-  border-top: 2px dotted rgba(29, 54, 95, .5);
-}
-#call-to-action h2 {
-   font: 30px/36px 'montserrat-bold', sans-serif;
-   color: #EBEEEE;
-   letter-spacing: -0.5px;
-   margin-bottom: 18px;
-   padding: 0 15%;
-}
-#call-to-action h2 a { color: #dbd6c2 !important; }
-#call-to-action p {
-  color: #fff;
-  padding: 0 8%;
-}
-#call-to-action span {
-  font-family: 'merriweather-regular', serif;
-  color: #0C3012;
-}
-#call-to-action .action a.button {
-  width: 350px;
-  margin: 0 auto;
-  padding: 15px;
-  border: 1px solid #a7a27c;
-
-}
-#call-to-action .button {
-  background: transparent;
-  color: #fff !important;
-}
-#call-to-action .button:hover,
-#call-to-action .button:active {
-   background: #a7a27c;
-   color: #1d365f !important;
+.events {
+  text-align:center;
 }
 
+.events h1 {
+  font: 30px/36px 'montserrat-bold', sans-serif;
 
-/* ------------------------------------------------------------------ */
-/* d. Location Section
-/* ------------------------------------------------------------------ */
-
-#contact .contacts {
-  background: #1F1F1F;
-  padding-top: 48px;
-   padding-bottom: 18px;
 }
-#contact  .contact-details {
-  max-width: 900px;
-  text-align: center;
-}
-#contact .contacts .row .columns {	width: 33.33333%; }
-#contact .contacts .row .end { float: left; }
-#contact .contacts h3 {
-   font: 14px/24px 'montserrat-bold', sans-serif;
-   color: #fff;
-   text-transform: uppercase;
-   letter-spacing: 1.5px;
-   margin-bottom: 6px;
-}
-#contact .contacts p {
-   line-height: 30px;
-   font-family: 'montserrat-regular', sans-serif;
-   font-size: 14px;
-   color: #6C6C6C;
-}
-#contact .contacts h3 i {	margin-right: 8px; }
-
-
-
-/* social links */
-
-#contact .social {
-  text-align: center;
-  clear: both;
-  font-size: 22px;
-   margin: 12px 0 24px;
-   padding: 0;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
-}
-#contact .social li {
-   display: inline-block;
-   margin: 0 12px;
-   padding: 0;
-}
-#contact .social li a { color: #fff; }
-#contact .social li a:hover { color: #dbd6c2; }
-
-
-
 
 
 /* ------------------------------------------------------------------ */
@@ -448,6 +358,6 @@ footer .copyright  li:first-child:before {
 
 #go-top a:hover { background: #1d365f;
     .fa-arrow-up{
-      color: #fff;
+      color: #a7a27c;
     }
  }

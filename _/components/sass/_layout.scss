@@ -22,7 +22,7 @@ body { background: #0f0f0f; }
 #intro {
    position: relative;
    padding-bottom: 102px;
-   min-height: 800px;
+   min-height: 600px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat center center;
    background-size: cover !important;
@@ -276,15 +276,6 @@ ul#nav li.current a { color: #1E732D; }
    text-transform: uppercase;
    letter-spacing: 3px;
    margin-bottom: 12px;
-}
-
-.events {
-  text-align:center;
-}
-
-.events h1 {
-  font: 30px/36px 'montserrat-bold', sans-serif;
-
 }
 
 

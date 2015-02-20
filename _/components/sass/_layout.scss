@@ -38,7 +38,10 @@ header {
 }
 header #logo {
     margin-top: 15px;
-
+    img {
+      height: 50px;
+      width: 260px;
+    }
 }
 
 /* primary navigation
@@ -250,6 +253,13 @@ ul#nav li.current a { color: #1E732D; }
 .section-header,
 .section-content {
   max-width: 880px;
+  ul{
+    margin-top: -10px;
+  }
+  ul li{
+    list-style-type: square;
+
+  }
 }
 #about .section-header {
   text-align: center;
@@ -285,10 +295,10 @@ ul#nav li.current a { color: #1E732D; }
 
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
-  background: #0f0f0f;
+  background: #1d365f;
    padding-top: 24px;
    padding-bottom: 24px;
-   color: #303030;
+   color: #fff;
 }
 
 footer a, footer a:visited { color: #525252; }
@@ -313,7 +323,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 6px;
     padding-right: 10px;
-    color: #1B6728;
+    color: #a7a27c;
 }
 footer .copyright  li:first-child:before {
     display: none;

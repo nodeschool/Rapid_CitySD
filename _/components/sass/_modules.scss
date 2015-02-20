@@ -9,7 +9,7 @@
   /* Header
   ------------------------------------------------------------------ */
   #logo {
-  
+
   }
 
    /* main
@@ -86,10 +86,14 @@
   /* intro styles
   ------------------------------------------------------------------ */
   header #logo {
-    top: 30px;
-    width: 90px;
-    margin-left: -45px;
+      margin-top: 20px;
+      img {
+        margin-left: 10px;
+        height: 40px;
+        width: 220px;
+      }
   }
+
 
   /* primary navigation
   --------------------------------------------------------------------- */
@@ -136,7 +140,8 @@
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-    width: 75%;
+
+    width: 100%;
   }
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
@@ -213,6 +218,16 @@
   /* intro styles
   ------------------------------------------------------------------ */
   #intro {	min-height: 780px; }
+
+  header #logo {
+      margin-top: 20px;
+      img {
+        margin-left: 30px;
+        height: 40px;
+        width: 220px;
+      }
+  }
+
 
    /* main
    ------------------------------------------------------------------ */
@@ -292,7 +307,26 @@
   }
 
   /* mailchimp form */
-  #main #mc_embed_signup { width: 90%; }
+  #main #mc_embed_signup {
+    clear: both;
+    margin: 12px auto 0;
+
+    width: 100%;
+  }
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+  #main #mc_embed_signup input[type="email"] {
+    width: 500px;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+  #main #mc_embed_signup input[type="submit"] {
+    width: 30%;
+    border-radius: 3px;
+    float: none;
+  }
 
   /* header social links */
    #main .social { font-size: 17px;}

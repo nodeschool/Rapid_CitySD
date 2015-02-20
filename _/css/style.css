@@ -1053,7 +1053,7 @@ body {
 #intro {
   position: relative;
   padding-bottom: 102px;
-  min-height: 800px;
+  min-height: 600px;
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat center center;
   background-size: cover !important;
@@ -1073,10 +1073,15 @@ header {
 header #logo {
   margin-top: 15px;
 }
+/* line 41, ../components/sass/_layout.scss */
+header #logo img {
+  height: 50px;
+  width: 260px;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */
-/* line 46, ../components/sass/_layout.scss */
+/* line 49, ../components/sass/_layout.scss */
 #nav-wrap, #nav-wrap ul, #nav-wrap li, #nav-wrap a {
   margin: 0;
   padding: 0;
@@ -1085,7 +1090,7 @@ header #logo {
 }
 
 /* nav-wrap */
-/* line 54, ../components/sass/_layout.scss */
+/* line 57, ../components/sass/_layout.scss */
 #nav-wrap {
   font: 11px 'montserrat-bold', sans-serif;
   text-transform: uppercase;
@@ -1098,12 +1103,12 @@ header #logo {
 }
 
 /* hide toggle button */
-/* line 67, ../components/sass/_layout.scss */
+/* line 70, ../components/sass/_layout.scss */
 #nav-wrap > a {
   display: none;
 }
 
-/* line 68, ../components/sass/_layout.scss */
+/* line 71, ../components/sass/_layout.scss */
 #nav-wrap > a {
   text-align: left;
   border: none;
@@ -1118,7 +1123,7 @@ header #logo {
   right: 36px;
 }
 
-/* line 83, ../components/sass/_layout.scss */
+/* line 86, ../components/sass/_layout.scss */
 #nav-wrap > a:before {
   font-family: 'FontAwesome';
   content: "\f0c9";
@@ -1132,7 +1137,7 @@ header #logo {
 }
 
 /* hide menu panel */
-/* line 96, ../components/sass/_layout.scss */
+/* line 99, ../components/sass/_layout.scss */
 #nav-wrap ul#nav {
   padding: 24px 36px 36px 36px;
   height: auto;
@@ -1148,24 +1153,24 @@ header #logo {
 }
 
 /* display toggle buttons */
-/* line 112, ../components/sass/_layout.scss */
+/* line 115, ../components/sass/_layout.scss */
 .no-js #nav-wrap:not(:target) > a:first-of-type,
 .no-js #nav-wrap:target > a:last-of-type {
   display: block;
 }
 
-/* line 116, ../components/sass/_layout.scss */
+/* line 119, ../components/sass/_layout.scss */
 .js #nav-wrap a {
   display: block;
 }
 
 /* display menu panels - no JS*/
-/* line 119, ../components/sass/_layout.scss */
+/* line 122, ../components/sass/_layout.scss */
 .no-js #nav-wrap:target > ul#nav {
   display: block;
 }
 
-/* line 123, ../components/sass/_layout.scss */
+/* line 126, ../components/sass/_layout.scss */
 ul#nav li {
   display: block;
   height: auto;
@@ -1174,7 +1179,7 @@ ul#nav li {
   border-bottom-style: dotted;
 }
 
-/* line 131, ../components/sass/_layout.scss */
+/* line 134, ../components/sass/_layout.scss */
 ul#nav li a {
   display: block;
   width: auto;
@@ -1192,31 +1197,31 @@ ul#nav li a {
   transition: color .2s ease-in-out;
 }
 
-/* line 148, ../components/sass/_layout.scss */
+/* line 151, ../components/sass/_layout.scss */
 ul#nav li a:hover {
   color: #1E732D;
 }
 
-/* line 149, ../components/sass/_layout.scss */
+/* line 152, ../components/sass/_layout.scss */
 ul#nav li a:active {
   background-color: transparent !important;
 }
 
-/* line 150, ../components/sass/_layout.scss */
+/* line 153, ../components/sass/_layout.scss */
 ul#nav li.current a {
   color: #1E732D;
 }
 
 /* Main
 ------------------------------------------------------------------ */
-/* line 155, ../components/sass/_layout.scss */
+/* line 158, ../components/sass/_layout.scss */
 #main {
   margin: 60px auto 0;
   text-align: center;
   width: 100%;
 }
 
-/* line 160, ../components/sass/_layout.scss */
+/* line 163, ../components/sass/_layout.scss */
 #main h1 {
   font: 42px/1.2em 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1225,7 +1230,7 @@ ul#nav li.current a {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 167, ../components/sass/_layout.scss */
+/* line 170, ../components/sass/_layout.scss */
 #main p {
   font: 16px/33px 'montserrat-regular', sans-serif;
   color: #fff;
@@ -1234,7 +1239,7 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* line 175, ../components/sass/_layout.scss */
+/* line 178, ../components/sass/_layout.scss */
 #main h4 {
   font: 15px/28px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1242,7 +1247,7 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-/* line 182, ../components/sass/_layout.scss */
+/* line 185, ../components/sass/_layout.scss */
 #main h5 {
   font: 13px/24px 'montserrat-bold', sans-serif;
   color: #fff;
@@ -1252,7 +1257,7 @@ ul#nav li.current a {
 }
 
 /* counter */
-/* line 191, ../components/sass/_layout.scss */
+/* line 194, ../components/sass/_layout.scss */
 #main #counter {
   width: 75%;
   color: #fff;
@@ -1260,7 +1265,7 @@ ul#nav li.current a {
   margin: 18px auto 0;
 }
 
-/* line 197, ../components/sass/_layout.scss */
+/* line 200, ../components/sass/_layout.scss */
 #main #counter span {
   font: 70px/1em 'merriweather-bold', serif;
   display: block;
@@ -1271,12 +1276,12 @@ ul#nav li.current a {
   border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/* line 206, ../components/sass/_layout.scss */
+/* line 209, ../components/sass/_layout.scss */
 #main #counter span:first-child {
   border-left: none;
 }
 
-/* line 207, ../components/sass/_layout.scss */
+/* line 210, ../components/sass/_layout.scss */
 #main #counter span em {
   font: 11px/18px 'montserrat-regular', sans-serif;
   text-transform: uppercase;
@@ -1289,7 +1294,7 @@ ul#nav li.current a {
 }
 
 /* social links */
-/* line 220, ../components/sass/_layout.scss */
+/* line 223, ../components/sass/_layout.scss */
 #main .social {
   clear: both;
   font-size: 22px;
@@ -1298,19 +1303,19 @@ ul#nav li.current a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
-/* line 227, ../components/sass/_layout.scss */
+/* line 230, ../components/sass/_layout.scss */
 #main .social li {
   display: inline-block;
   margin: 0 12px;
   padding: 0;
 }
 
-/* line 232, ../components/sass/_layout.scss */
+/* line 235, ../components/sass/_layout.scss */
 #main .social li a {
   color: #fff;
 }
 
-/* line 233, ../components/sass/_layout.scss */
+/* line 236, ../components/sass/_layout.scss */
 #main .social li a:hover {
   color: #dbd6c2;
 }
@@ -1318,7 +1323,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
-/* line 240, ../components/sass/_layout.scss */
+/* line 243, ../components/sass/_layout.scss */
 #about {
   background: #fff;
   color: #1d365f;
@@ -1327,36 +1332,46 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
-/* line 247, ../components/sass/_layout.scss */
+/* line 250, ../components/sass/_layout.scss */
 #about a, #about a:visited {
   color: #0C3012;
 }
 
-/* line 248, ../components/sass/_layout.scss */
+/* line 251, ../components/sass/_layout.scss */
 #about a:hover, #about a:focus {
   color: #1d365f;
 }
 
-/* line 250, ../components/sass/_layout.scss */
+/* line 253, ../components/sass/_layout.scss */
 .section-header,
 .section-content {
   max-width: 880px;
 }
+/* line 256, ../components/sass/_layout.scss */
+.section-header ul,
+.section-content ul {
+  margin-top: -10px;
+}
+/* line 259, ../components/sass/_layout.scss */
+.section-header ul li,
+.section-content ul li {
+  list-style-type: square;
+}
 
-/* line 254, ../components/sass/_layout.scss */
+/* line 264, ../components/sass/_layout.scss */
 #about .section-header {
   text-align: center;
   margin-bottom: 12px;
 }
 
-/* line 258, ../components/sass/_layout.scss */
+/* line 268, ../components/sass/_layout.scss */
 #about .section-header .icon-wrap {
   font-size: 60px;
   margin-bottom: 18px;
   color: #1d365f;
 }
 
-/* line 263, ../components/sass/_layout.scss */
+/* line 273, ../components/sass/_layout.scss */
 #about .section-header h1 {
   font: 30px/36px 'montserrat-bold', sans-serif;
   color: #a7a27c;
@@ -1364,13 +1379,13 @@ ul#nav li.current a {
   padding: 0 15%;
 }
 
-/* line 269, ../components/sass/_layout.scss */
+/* line 279, ../components/sass/_layout.scss */
 #about .section-header p {
   color: #1d365f;
   padding: 0 3%;
 }
 
-/* line 273, ../components/sass/_layout.scss */
+/* line 283, ../components/sass/_layout.scss */
 #about h3 {
   font: 15px/24px 'montserrat-bold', sans-serif;
   color: #a7a27c;
@@ -1379,47 +1394,37 @@ ul#nav li.current a {
   margin-bottom: 12px;
 }
 
-/* line 281, ../components/sass/_layout.scss */
-.events {
-  text-align: center;
-}
-
-/* line 285, ../components/sass/_layout.scss */
-.events h1 {
-  font: 30px/36px 'montserrat-bold', sans-serif;
-}
-
 /* ------------------------------------------------------------------ */
 /* e. Footer
 /* ------------------------------------------------------------------ */
-/* line 295, ../components/sass/_layout.scss */
+/* line 296, ../components/sass/_layout.scss */
 footer {
   font: 14px/24px 'montserrat-regular', sans-serif;
-  background: #0f0f0f;
+  background: #1d365f;
   padding-top: 24px;
   padding-bottom: 24px;
-  color: #303030;
+  color: #fff;
 }
 
-/* line 303, ../components/sass/_layout.scss */
+/* line 304, ../components/sass/_layout.scss */
 footer a, footer a:visited {
   color: #525252;
 }
 
-/* line 304, ../components/sass/_layout.scss */
+/* line 305, ../components/sass/_layout.scss */
 footer a:hover, footer a:focus {
   color: #fff;
 }
 
 /* copyright */
-/* line 307, ../components/sass/_layout.scss */
+/* line 308, ../components/sass/_layout.scss */
 footer .copyright {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-/* line 312, ../components/sass/_layout.scss */
+/* line 313, ../components/sass/_layout.scss */
 footer .copyright li {
   display: inline-block;
   margin: 0;
@@ -1427,26 +1432,26 @@ footer .copyright li {
   line-height: 24px;
 }
 
-/* line 318, ../components/sass/_layout.scss */
+/* line 319, ../components/sass/_layout.scss */
 .ie footer .copyright li {
   display: inline;
 }
 
-/* line 321, ../components/sass/_layout.scss */
+/* line 322, ../components/sass/_layout.scss */
 footer .copyright li:before {
   content: "\2022";
   padding-left: 6px;
   padding-right: 10px;
-  color: #1B6728;
+  color: #a7a27c;
 }
 
-/* line 327, ../components/sass/_layout.scss */
+/* line 328, ../components/sass/_layout.scss */
 footer .copyright li:first-child:before {
   display: none;
 }
 
 /* Go To Top Button */
-/* line 332, ../components/sass/_layout.scss */
+/* line 333, ../components/sass/_layout.scss */
 #go-top {
   position: fixed;
   bottom: 30px;
@@ -1455,7 +1460,7 @@ footer .copyright li:first-child:before {
   display: none;
 }
 
-/* line 339, ../components/sass/_layout.scss */
+/* line 340, ../components/sass/_layout.scss */
 #go-top a {
   text-decoration: none;
   border: 0 none;
@@ -1474,11 +1479,11 @@ footer .copyright li:first-child:before {
   border-radius: 3px;
 }
 
-/* line 359, ../components/sass/_layout.scss */
+/* line 360, ../components/sass/_layout.scss */
 #go-top a:hover {
   background: #1d365f;
 }
-/* line 360, ../components/sass/_layout.scss */
+/* line 361, ../components/sass/_layout.scss */
 #go-top a:hover .fa-arrow-up {
   color: #a7a27c;
 }
@@ -1620,19 +1625,23 @@ footer .copyright li:first-child:before {
   ------------------------------------------------------------------ */
   /* line 88, ../components/sass/_modules.scss */
   header #logo {
-    top: 30px;
-    width: 90px;
-    margin-left: -45px;
+    margin-top: 20px;
+  }
+  /* line 90, ../components/sass/_modules.scss */
+  header #logo img {
+    margin-left: 10px;
+    height: 40px;
+    width: 220px;
   }
 
   /* primary navigation
   --------------------------------------------------------------------- */
-  /* line 96, ../components/sass/_modules.scss */
+  /* line 100, ../components/sass/_modules.scss */
   #nav-wrap > a {
     right: 0;
   }
 
-  /* line 97, ../components/sass/_modules.scss */
+  /* line 101, ../components/sass/_modules.scss */
   #nav-wrap ul#nav {
     background: #111;
     right: 0;
@@ -1640,44 +1649,44 @@ footer .copyright li:first-child:before {
 
   /* main
   ------------------------------------------------------------------ */
-  /* line 104, ../components/sass/_modules.scss */
+  /* line 108, ../components/sass/_modules.scss */
   #main {
     margin-top: 48px;
   }
 
-  /* line 105, ../components/sass/_modules.scss */
+  /* line 109, ../components/sass/_modules.scss */
   #main h1 {
     font: 30px/1.2em 'montserrat-bold', sans-serif;
     text-align: center;
   }
 
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 113, ../components/sass/_modules.scss */
   #main p {
     font: 14px/24px 'montserrat-regular', sans-serif;
     margin-bottom: 15px;
     text-align: center;
   }
 
-  /* line 114, ../components/sass/_modules.scss */
+  /* line 118, ../components/sass/_modules.scss */
   #main h5 {
     font: 12px/24px 'montserrat-bold', sans-serif;
     text-align: center;
   }
 
   /* counter */
-  /* line 120, ../components/sass/_modules.scss */
+  /* line 124, ../components/sass/_modules.scss */
   #main #counter {
     width: 100%;
     margin: 12px 0 30px;
   }
 
-  /* line 124, ../components/sass/_modules.scss */
+  /* line 128, ../components/sass/_modules.scss */
   #main #counter span {
     font: 46px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
   }
 
-  /* line 128, ../components/sass/_modules.scss */
+  /* line 132, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     text-transform: uppercase;
@@ -1686,19 +1695,19 @@ footer .copyright li:first-child:before {
   }
 
   /* mailchimp form */
-  /* line 136, ../components/sass/_modules.scss */
+  /* line 140, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-    width: 75%;
+    width: 100%;
   }
 
-  /* line 141, ../components/sass/_modules.scss */
+  /* line 146, ../components/sass/_modules.scss */
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
   }
 
-  /* line 144, ../components/sass/_modules.scss */
+  /* line 149, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="email"] {
     width: 100%;
     border-radius: 3px;
@@ -1706,7 +1715,7 @@ footer .copyright li:first-child:before {
     text-align: center;
   }
 
-  /* line 150, ../components/sass/_modules.scss */
+  /* line 155, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="submit"] {
     width: 100%;
     border-radius: 3px;
@@ -1714,49 +1723,49 @@ footer .copyright li:first-child:before {
   }
 
   /* social links */
-  /* line 157, ../components/sass/_modules.scss */
+  /* line 162, ../components/sass/_modules.scss */
   #main .social {
     margin: 12px 0 24px;
     font-size: 18px;
     text-align: center;
   }
 
-  /* line 162, ../components/sass/_modules.scss */
+  /* line 167, ../components/sass/_modules.scss */
   #main .social li {
     margin: 0 8px;
   }
 
   /* about section
    -------------------------------------------------------------------- */
-  /* line 167, ../components/sass/_modules.scss */
+  /* line 172, ../components/sass/_modules.scss */
   #about {
     padding-top: 72px;
   }
 
-  /* line 168, ../components/sass/_modules.scss */
+  /* line 173, ../components/sass/_modules.scss */
   #about .icon-wrap {
     text-align: center;
     margin-bottom: 30px;
   }
 
-  /* line 172, ../components/sass/_modules.scss */
+  /* line 177, ../components/sass/_modules.scss */
   #about .header {
     text-align: center;
   }
 
-  /* line 173, ../components/sass/_modules.scss */
+  /* line 178, ../components/sass/_modules.scss */
   #about h1 {
     font: 26px/36px 'montserrat-bold', sans-serif;
   }
 
   /* Call To Action Section
   ----------------------------------------------------------------- */
-  /* line 177, ../components/sass/_modules.scss */
+  /* line 182, ../components/sass/_modules.scss */
   #call-to-action h2 {
     font: 26px/36px 'montserrat-bold', sans-serif;
   }
 
-  /* line 178, ../components/sass/_modules.scss */
+  /* line 183, ../components/sass/_modules.scss */
   #call-to-action .action,
   #call-to-action .action a {
     width: 100%;
@@ -1766,12 +1775,12 @@ footer .copyright li:first-child:before {
 
   /* location section
   ------------------------------------------------------------------ */
-  /* line 187, ../components/sass/_modules.scss */
+  /* line 192, ../components/sass/_modules.scss */
   #location .contacts {
     padding-top: 54px;
   }
 
-  /* line 188, ../components/sass/_modules.scss */
+  /* line 193, ../components/sass/_modules.scss */
   #location .contacts .row .columns {
     text-align: center;
     width: 100%;
@@ -1780,23 +1789,23 @@ footer .copyright li:first-child:before {
 
   /* footer
   ------------------------------------------------------------------------ */
-  /* line 196, ../components/sass/_modules.scss */
+  /* line 201, ../components/sass/_modules.scss */
   footer {
     padding-bottom: 30px;
   }
 
   /* copyright */
-  /* line 199, ../components/sass/_modules.scss */
+  /* line 204, ../components/sass/_modules.scss */
   footer .copyright {
     text-align: center;
   }
 
-  /* line 200, ../components/sass/_modules.scss */
+  /* line 205, ../components/sass/_modules.scss */
   footer .copyright li:before {
     content: none;
   }
 
-  /* line 201, ../components/sass/_modules.scss */
+  /* line 206, ../components/sass/_modules.scss */
   footer .copyright li {
     margin: 0;
     display: block;
@@ -1808,66 +1817,77 @@ footer .copyright li:first-child:before {
 @media only screen and (max-width: 460px) {
   /* intro styles
   ------------------------------------------------------------------ */
-  /* line 215, ../components/sass/_modules.scss */
+  /* line 220, ../components/sass/_modules.scss */
   #intro {
     min-height: 780px;
   }
 
+  /* line 222, ../components/sass/_modules.scss */
+  header #logo {
+    margin-top: 20px;
+  }
+  /* line 224, ../components/sass/_modules.scss */
+  header #logo img {
+    margin-left: 30px;
+    height: 40px;
+    width: 220px;
+  }
+
   /* main
   ------------------------------------------------------------------ */
-  /* line 219, ../components/sass/_modules.scss */
+  /* line 234, ../components/sass/_modules.scss */
   #main h1 {
     font: 28px/1.2em 'montserrat-bold', sans-serif;
     padding: 0 5px;
   }
 
   /* counter */
-  /* line 225, ../components/sass/_modules.scss */
+  /* line 240, ../components/sass/_modules.scss */
   #main #counter {
     width: 100%;
     margin: 0 0 24px;
   }
 
-  /* line 229, ../components/sass/_modules.scss */
+  /* line 244, ../components/sass/_modules.scss */
   #main #counter span {
     font: 40px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
     border: none;
   }
 
-  /* line 234, ../components/sass/_modules.scss */
+  /* line 249, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     margin-top: 6px;
   }
 
   /* mailchimp form */
-  /* line 240, ../components/sass/_modules.scss */
+  /* line 255, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
     width: 80%;
   }
 
   /* about section
    ------------------------------------------------------------------ */
-  /* line 245, ../components/sass/_modules.scss */
+  /* line 260, ../components/sass/_modules.scss */
   #about .section-header .icon-wrap {
     font-size: 50px;
   }
 
-  /* line 246, ../components/sass/_modules.scss */
+  /* line 261, ../components/sass/_modules.scss */
   #about .section-header h1,
   #call-to-action h2 {
     font: 24px/30px 'montserrat-bold', sans-serif;
     padding: 0;
   }
 
-  /* line 251, ../components/sass/_modules.scss */
+  /* line 266, ../components/sass/_modules.scss */
   #about p.lead {
     font: 16px/33px 'merriweather-light', sans-serif;
     padding: 0;
   }
 
-  /* line 255, ../components/sass/_modules.scss */
+  /* line 270, ../components/sass/_modules.scss */
   #call-to-action .action a.button {
     width: 100%;
   }
@@ -1875,18 +1895,18 @@ footer .copyright li:first-child:before {
   /* footer
   ------------------------------------------------------------------------ */
   /* social links */
-  /* line 261, ../components/sass/_modules.scss */
+  /* line 276, ../components/sass/_modules.scss */
   footer .social-links {
     font-size: 20px;
   }
 
-  /* line 262, ../components/sass/_modules.scss */
+  /* line 277, ../components/sass/_modules.scss */
   footer .social-links li {
     margin-left: 14px;
   }
 
   /* Go To Top Button */
-  /* line 265, ../components/sass/_modules.scss */
+  /* line 280, ../components/sass/_modules.scss */
   #go-top {
     right: 15px;
   }
@@ -1896,55 +1916,77 @@ footer .copyright li:first-child:before {
 @media only screen and (max-width: 400px) {
   /* intro styles
   ------------------------------------------------------------------ */
-  /* line 275, ../components/sass/_modules.scss */
+  /* line 290, ../components/sass/_modules.scss */
   #intro {
     min-height: 744px;
   }
 
   /* main
    ------------------------------------------------------------- */
-  /* line 279, ../components/sass/_modules.scss */
+  /* line 294, ../components/sass/_modules.scss */
   #main {
     margin-top: 42px;
   }
 
-  /* line 280, ../components/sass/_modules.scss */
+  /* line 295, ../components/sass/_modules.scss */
   #main h1 {
     font: 25px/1.2em 'montserrat-bold', sans-serif;
   }
 
-  /* line 281, ../components/sass/_modules.scss */
+  /* line 296, ../components/sass/_modules.scss */
   #main p {
     font: 12px/21px 'montserrat-regular', sans-serif;
   }
 
  /* counter
 ------------------------------------------------------------- */
-  /* line 285, ../components/sass/_modules.scss */
+  /* line 300, ../components/sass/_modules.scss */
   #main #counter span {
     font: 35px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
   }
 
-  /* line 289, ../components/sass/_modules.scss */
+  /* line 304, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     margin-top: 6px;
   }
 
   /* mailchimp form */
-  /* line 295, ../components/sass/_modules.scss */
+  /* line 310, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
-    width: 90%;
+    clear: both;
+    margin: 12px auto 0;
+    width: 100%;
+  }
+
+  /* line 316, ../components/sass/_modules.scss */
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+
+  /* line 319, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="email"] {
+    width: 500px;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 325, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="submit"] {
+    width: 30%;
+    border-radius: 3px;
+    float: none;
   }
 
   /* header social links */
-  /* line 298, ../components/sass/_modules.scss */
+  /* line 332, ../components/sass/_modules.scss */
   #main .social {
     font-size: 17px;
   }
 
-  /* line 299, ../components/sass/_modules.scss */
+  /* line 333, ../components/sass/_modules.scss */
   #main .social li {
     margin: 0 6px;
   }
@@ -2594,12 +2636,6 @@ properly.
 }
 
 /* line 1, ../components/sass/_events.scss */
-<<<<<<< Updated upstream
-#events ul {
-  margin-top: 40px;
-}
-/* line 3, ../components/sass/_events.scss */
-=======
 #events {
   text-align: center;
 }
@@ -2607,23 +2643,19 @@ properly.
 /* line 5, ../components/sass/_events.scss */
 #events h1 {
   font: 30px/36px 'montserrat-bold', sans-serif;
+  color: #a7a27c;
 }
 
-/* line 12, ../components/sass/_events.scss */
+/* line 13, ../components/sass/_events.scss */
 #events ul {
   margin-top: 40px;
 }
-/* line 14, ../components/sass/_events.scss */
->>>>>>> Stashed changes
+/* line 15, ../components/sass/_events.scss */
 #events ul li {
   text-align: left;
   text-indent: 20px;
 }
-<<<<<<< Updated upstream
-/* line 6, ../components/sass/_events.scss */
-=======
-/* line 17, ../components/sass/_events.scss */
->>>>>>> Stashed changes
+/* line 18, ../components/sass/_events.scss */
 #events ul li time {
   display: block;
   color: #a7a27c;

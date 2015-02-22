@@ -1052,8 +1052,8 @@ body {
 /* line 22, ../components/sass/_layout.scss */
 #intro {
   position: relative;
-  padding-bottom: 102px;
-  min-height: 600px;
+  padding-bottom: 100px;
+  min-height: 700px;
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat center center;
   background-size: cover !important;
@@ -2052,7 +2052,7 @@ footer .copyright li:first-child:before {
 /* line 47, ../components/sass/_forms.scss */
 #main .social {
   clear: both;
-  font-size: 22px;
+  font-size: 24px;
   margin: 12px 0 24px;
   padding: 0;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
@@ -2072,7 +2072,7 @@ footer .copyright li:first-child:before {
 
 /* line 60, ../components/sass/_forms.scss */
 #main .social li a:hover {
-  color: #197C28;
+  color: #4d75ba;
 }
 
 /* ------------------------------------------------------------------ */

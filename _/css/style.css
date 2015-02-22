@@ -1199,7 +1199,7 @@ ul#nav li a {
 
 /* line 151, ../components/sass/_layout.scss */
 ul#nav li a:hover {
-  color: #1E732D;
+  color: #1d365f;
 }
 
 /* line 152, ../components/sass/_layout.scss */
@@ -1209,7 +1209,7 @@ ul#nav li a:active {
 
 /* line 153, ../components/sass/_layout.scss */
 ul#nav li.current a {
-  color: #1E732D;
+  color: #1d365f;
 }
 
 /* Main
@@ -1574,46 +1574,68 @@ footer .copyright li:first-child:before {
   /* mailchimp form */
   /* line 60, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
-    width: 65%;
-    margin-top: 36px;
+    clear: both;
+    margin: 12px auto 0;
+    width: 60% !important;
+  }
+
+  /* line 65, ../components/sass/_modules.scss */
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+
+  /* line 68, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="email"] {
+    width: 50%;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 74, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="submit"] {
+    width: 30% !important;
+    text-align: center;
+    border-radius: 3px;
+    float: none;
   }
 
   /* about section
    ------------------------------------------------------------------ */
-  /* line 67, ../components/sass/_modules.scss */
+  /* line 83, ../components/sass/_modules.scss */
   #about {
     padding-top: 84px;
   }
 
-  /* line 68, ../components/sass/_modules.scss */
+  /* line 84, ../components/sass/_modules.scss */
   #about .section-header .icon-wrap {
     font-size: 55px;
   }
 
-  /* line 69, ../components/sass/_modules.scss */
+  /* line 85, ../components/sass/_modules.scss */
   #about .section-header h1,
   #call-to-action h2 {
     font: 28px/36px 'montserrat-bold', sans-serif;
   }
 
-  /* line 72, ../components/sass/_modules.scss */
+  /* line 88, ../components/sass/_modules.scss */
   #call-to-action .section-ads {
     padding-top: 42px;
   }
 
-  /* line 73, ../components/sass/_modules.scss */
+  /* line 89, ../components/sass/_modules.scss */
   #call-to-action p {
     padding: 0 10%;
   }
 
   /* location section
   ------------------------------------------------------------------ */
-  /* line 77, ../components/sass/_modules.scss */
+  /* line 93, ../components/sass/_modules.scss */
   #location .contacts .row .columns {
     width: 50%;
   }
 
-  /* line 78, ../components/sass/_modules.scss */
+  /* line 94, ../components/sass/_modules.scss */
   #location .contacts .row .end {
     clear: both;
   }
@@ -1623,11 +1645,11 @@ footer .copyright li:first-child:before {
 @media only screen and (max-width: 767px) {
   /* intro styles
   ------------------------------------------------------------------ */
-  /* line 88, ../components/sass/_modules.scss */
+  /* line 104, ../components/sass/_modules.scss */
   header #logo {
     margin-top: 20px;
   }
-  /* line 90, ../components/sass/_modules.scss */
+  /* line 106, ../components/sass/_modules.scss */
   header #logo img {
     margin-left: 10px;
     height: 40px;
@@ -1636,12 +1658,12 @@ footer .copyright li:first-child:before {
 
   /* primary navigation
   --------------------------------------------------------------------- */
-  /* line 100, ../components/sass/_modules.scss */
+  /* line 116, ../components/sass/_modules.scss */
   #nav-wrap > a {
     right: 0;
   }
 
-  /* line 101, ../components/sass/_modules.scss */
+  /* line 117, ../components/sass/_modules.scss */
   #nav-wrap ul#nav {
     background: #111;
     right: 0;
@@ -1649,44 +1671,44 @@ footer .copyright li:first-child:before {
 
   /* main
   ------------------------------------------------------------------ */
-  /* line 108, ../components/sass/_modules.scss */
+  /* line 124, ../components/sass/_modules.scss */
   #main {
     margin-top: 48px;
   }
 
-  /* line 109, ../components/sass/_modules.scss */
+  /* line 125, ../components/sass/_modules.scss */
   #main h1 {
     font: 30px/1.2em 'montserrat-bold', sans-serif;
     text-align: center;
   }
 
-  /* line 113, ../components/sass/_modules.scss */
+  /* line 129, ../components/sass/_modules.scss */
   #main p {
     font: 14px/24px 'montserrat-regular', sans-serif;
     margin-bottom: 15px;
     text-align: center;
   }
 
-  /* line 118, ../components/sass/_modules.scss */
+  /* line 134, ../components/sass/_modules.scss */
   #main h5 {
     font: 12px/24px 'montserrat-bold', sans-serif;
     text-align: center;
   }
 
   /* counter */
-  /* line 124, ../components/sass/_modules.scss */
+  /* line 140, ../components/sass/_modules.scss */
   #main #counter {
     width: 100%;
     margin: 12px 0 30px;
   }
 
-  /* line 128, ../components/sass/_modules.scss */
+  /* line 144, ../components/sass/_modules.scss */
   #main #counter span {
     font: 46px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
   }
 
-  /* line 132, ../components/sass/_modules.scss */
+  /* line 148, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     text-transform: uppercase;
@@ -1695,77 +1717,78 @@ footer .copyright li:first-child:before {
   }
 
   /* mailchimp form */
-  /* line 140, ../components/sass/_modules.scss */
+  /* line 156, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-    width: 100%;
+    width: 60% !important;
   }
 
-  /* line 146, ../components/sass/_modules.scss */
+  /* line 161, ../components/sass/_modules.scss */
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
   }
 
-  /* line 149, ../components/sass/_modules.scss */
+  /* line 164, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="email"] {
-    width: 100%;
+    width: 50%;
     border-radius: 3px;
     float: none;
     text-align: center;
   }
 
-  /* line 155, ../components/sass/_modules.scss */
+  /* line 170, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="submit"] {
-    width: 100%;
+    width: 30% !important;
+    text-align: center;
     border-radius: 3px;
     float: none;
   }
 
   /* social links */
-  /* line 162, ../components/sass/_modules.scss */
+  /* line 178, ../components/sass/_modules.scss */
   #main .social {
     margin: 12px 0 24px;
     font-size: 18px;
     text-align: center;
   }
 
-  /* line 167, ../components/sass/_modules.scss */
+  /* line 183, ../components/sass/_modules.scss */
   #main .social li {
     margin: 0 8px;
   }
 
   /* about section
    -------------------------------------------------------------------- */
-  /* line 172, ../components/sass/_modules.scss */
+  /* line 188, ../components/sass/_modules.scss */
   #about {
     padding-top: 72px;
   }
 
-  /* line 173, ../components/sass/_modules.scss */
+  /* line 189, ../components/sass/_modules.scss */
   #about .icon-wrap {
     text-align: center;
     margin-bottom: 30px;
   }
 
-  /* line 177, ../components/sass/_modules.scss */
+  /* line 193, ../components/sass/_modules.scss */
   #about .header {
     text-align: center;
   }
 
-  /* line 178, ../components/sass/_modules.scss */
+  /* line 194, ../components/sass/_modules.scss */
   #about h1 {
     font: 26px/36px 'montserrat-bold', sans-serif;
   }
 
   /* Call To Action Section
   ----------------------------------------------------------------- */
-  /* line 182, ../components/sass/_modules.scss */
+  /* line 198, ../components/sass/_modules.scss */
   #call-to-action h2 {
     font: 26px/36px 'montserrat-bold', sans-serif;
   }
 
-  /* line 183, ../components/sass/_modules.scss */
+  /* line 199, ../components/sass/_modules.scss */
   #call-to-action .action,
   #call-to-action .action a {
     width: 100%;
@@ -1773,39 +1796,25 @@ footer .copyright li:first-child:before {
     text-align: center;
   }
 
-  /* location section
-  ------------------------------------------------------------------ */
-  /* line 192, ../components/sass/_modules.scss */
-  #location .contacts {
-    padding-top: 54px;
-  }
-
-  /* line 193, ../components/sass/_modules.scss */
-  #location .contacts .row .columns {
-    text-align: center;
-    width: 100%;
-    float: none;
-  }
-
   /* footer
   ------------------------------------------------------------------------ */
-  /* line 201, ../components/sass/_modules.scss */
+  /* line 210, ../components/sass/_modules.scss */
   footer {
     padding-bottom: 30px;
   }
 
   /* copyright */
-  /* line 204, ../components/sass/_modules.scss */
+  /* line 213, ../components/sass/_modules.scss */
   footer .copyright {
     text-align: center;
   }
 
-  /* line 205, ../components/sass/_modules.scss */
+  /* line 214, ../components/sass/_modules.scss */
   footer .copyright li:before {
     content: none;
   }
 
-  /* line 206, ../components/sass/_modules.scss */
+  /* line 215, ../components/sass/_modules.scss */
   footer .copyright li {
     margin: 0;
     display: block;
@@ -1817,16 +1826,16 @@ footer .copyright li:first-child:before {
 @media only screen and (max-width: 460px) {
   /* intro styles
   ------------------------------------------------------------------ */
-  /* line 220, ../components/sass/_modules.scss */
+  /* line 229, ../components/sass/_modules.scss */
   #intro {
     min-height: 780px;
   }
 
-  /* line 222, ../components/sass/_modules.scss */
+  /* line 231, ../components/sass/_modules.scss */
   header #logo {
     margin-top: 20px;
   }
-  /* line 224, ../components/sass/_modules.scss */
+  /* line 233, ../components/sass/_modules.scss */
   header #logo img {
     margin-left: 30px;
     height: 40px;
@@ -1835,59 +1844,82 @@ footer .copyright li:first-child:before {
 
   /* main
   ------------------------------------------------------------------ */
-  /* line 234, ../components/sass/_modules.scss */
+  /* line 243, ../components/sass/_modules.scss */
   #main h1 {
     font: 28px/1.2em 'montserrat-bold', sans-serif;
     padding: 0 5px;
   }
 
   /* counter */
-  /* line 240, ../components/sass/_modules.scss */
+  /* line 249, ../components/sass/_modules.scss */
   #main #counter {
     width: 100%;
     margin: 0 0 24px;
   }
 
-  /* line 244, ../components/sass/_modules.scss */
+  /* line 253, ../components/sass/_modules.scss */
   #main #counter span {
     font: 40px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
     border: none;
   }
 
-  /* line 249, ../components/sass/_modules.scss */
+  /* line 258, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     margin-top: 6px;
   }
 
   /* mailchimp form */
-  /* line 255, ../components/sass/_modules.scss */
+  /* line 264, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
-    width: 80%;
+    clear: both;
+    margin: 12px auto 0;
+    width: 70% !important;
+  }
+
+  /* line 269, ../components/sass/_modules.scss */
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+
+  /* line 272, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="email"] {
+    width: 70%;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+
+  /* line 278, ../components/sass/_modules.scss */
+  #main #mc_embed_signup input[type="submit"] {
+    width: 45% !important;
+    text-align: center;
+    border-radius: 3px;
+    float: none;
   }
 
   /* about section
    ------------------------------------------------------------------ */
-  /* line 260, ../components/sass/_modules.scss */
+  /* line 287, ../components/sass/_modules.scss */
   #about .section-header .icon-wrap {
     font-size: 50px;
   }
 
-  /* line 261, ../components/sass/_modules.scss */
+  /* line 288, ../components/sass/_modules.scss */
   #about .section-header h1,
   #call-to-action h2 {
     font: 24px/30px 'montserrat-bold', sans-serif;
     padding: 0;
   }
 
-  /* line 266, ../components/sass/_modules.scss */
+  /* line 293, ../components/sass/_modules.scss */
   #about p.lead {
     font: 16px/33px 'merriweather-light', sans-serif;
     padding: 0;
   }
 
-  /* line 270, ../components/sass/_modules.scss */
+  /* line 297, ../components/sass/_modules.scss */
   #call-to-action .action a.button {
     width: 100%;
   }
@@ -1895,18 +1927,18 @@ footer .copyright li:first-child:before {
   /* footer
   ------------------------------------------------------------------------ */
   /* social links */
-  /* line 276, ../components/sass/_modules.scss */
+  /* line 303, ../components/sass/_modules.scss */
   footer .social-links {
     font-size: 20px;
   }
 
-  /* line 277, ../components/sass/_modules.scss */
+  /* line 304, ../components/sass/_modules.scss */
   footer .social-links li {
     margin-left: 14px;
   }
 
   /* Go To Top Button */
-  /* line 280, ../components/sass/_modules.scss */
+  /* line 307, ../components/sass/_modules.scss */
   #go-top {
     right: 15px;
   }
@@ -1916,77 +1948,78 @@ footer .copyright li:first-child:before {
 @media only screen and (max-width: 400px) {
   /* intro styles
   ------------------------------------------------------------------ */
-  /* line 290, ../components/sass/_modules.scss */
+  /* line 317, ../components/sass/_modules.scss */
   #intro {
     min-height: 744px;
   }
 
   /* main
    ------------------------------------------------------------- */
-  /* line 294, ../components/sass/_modules.scss */
+  /* line 321, ../components/sass/_modules.scss */
   #main {
     margin-top: 42px;
   }
 
-  /* line 295, ../components/sass/_modules.scss */
+  /* line 322, ../components/sass/_modules.scss */
   #main h1 {
     font: 25px/1.2em 'montserrat-bold', sans-serif;
   }
 
-  /* line 296, ../components/sass/_modules.scss */
+  /* line 323, ../components/sass/_modules.scss */
   #main p {
     font: 12px/21px 'montserrat-regular', sans-serif;
   }
 
  /* counter
 ------------------------------------------------------------- */
-  /* line 300, ../components/sass/_modules.scss */
+  /* line 327, ../components/sass/_modules.scss */
   #main #counter span {
     font: 35px/1em 'merriweather-bold', serif;
     padding: 9px 0 15px;
   }
 
-  /* line 304, ../components/sass/_modules.scss */
+  /* line 331, ../components/sass/_modules.scss */
   #main #counter span em {
     font: 9px/18px 'montserrat-regular', sans-serif;
     margin-top: 6px;
   }
 
   /* mailchimp form */
-  /* line 310, ../components/sass/_modules.scss */
+  /* line 337, ../components/sass/_modules.scss */
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-    width: 100%;
+    width: 80% !important;
   }
 
-  /* line 316, ../components/sass/_modules.scss */
+  /* line 342, ../components/sass/_modules.scss */
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
   }
 
-  /* line 319, ../components/sass/_modules.scss */
+  /* line 345, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="email"] {
-    width: 500px;
+    width: 70%;
     border-radius: 3px;
     float: none;
     text-align: center;
   }
 
-  /* line 325, ../components/sass/_modules.scss */
+  /* line 351, ../components/sass/_modules.scss */
   #main #mc_embed_signup input[type="submit"] {
-    width: 30%;
+    width: 40% !important;
+    text-align: center;
     border-radius: 3px;
     float: none;
   }
 
   /* header social links */
-  /* line 332, ../components/sass/_modules.scss */
+  /* line 359, ../components/sass/_modules.scss */
   #main .social {
     font-size: 17px;
   }
 
-  /* line 333, ../components/sass/_modules.scss */
+  /* line 360, ../components/sass/_modules.scss */
   #main .social li {
     margin: 0 6px;
   }

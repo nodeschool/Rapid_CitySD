@@ -58,8 +58,24 @@
 
   /* mailchimp form */
   #main #mc_embed_signup {
-    width: 65%;
-    margin-top: 36px;
+    clear: both;
+    margin: 12px auto 0;
+    width: 60% !important;
+  }
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+  #main #mc_embed_signup input[type="email"] {
+    width: 50%;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+  #main #mc_embed_signup input[type="submit"] {
+    width: 30% !important;
+    text-align: center;
+    border-radius: 3px;
+    float: none;
   }
 
   /* about section
@@ -140,20 +156,20 @@
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-
-    width: 100%;
+    width: 60% !important;
   }
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
   }
   #main #mc_embed_signup input[type="email"] {
-    width: 100%;
+    width: 50%;
     border-radius: 3px;
     float: none;
     text-align: center;
   }
   #main #mc_embed_signup input[type="submit"] {
-    width: 100%;
+    width: 30% !important;
+    text-align: center;
     border-radius: 3px;
     float: none;
   }
@@ -187,14 +203,7 @@
     text-align: center;
   }
 
-  /* location section
-  ------------------------------------------------------------------ */
-  #location .contacts { padding-top: 54px; }
-  #location .contacts .row .columns {
-    text-align: center;
-    width: 100%;
-    float: none;
-  }
+
 
    /* footer
    ------------------------------------------------------------------------ */
@@ -252,8 +261,26 @@
   }
 
   /* mailchimp form */
-  #main #mc_embed_signup { width: 80%; }
-
+  #main #mc_embed_signup {
+    clear: both;
+    margin: 12px auto 0;
+    width: 70% !important;
+  }
+  #main #mc-embedded-subscribe-form {
+    margin-bottom: 0;
+  }
+  #main #mc_embed_signup input[type="email"] {
+    width: 70%;
+    border-radius: 3px;
+    float: none;
+    text-align: center;
+  }
+  #main #mc_embed_signup input[type="submit"] {
+    width: 45% !important;
+    text-align: center;
+    border-radius: 3px;
+    float: none;
+  }
 
   /* about section
    ------------------------------------------------------------------ */
@@ -310,20 +337,20 @@
   #main #mc_embed_signup {
     clear: both;
     margin: 12px auto 0;
-
-    width: 100%;
+    width: 80% !important;
   }
   #main #mc-embedded-subscribe-form {
     margin-bottom: 0;
   }
   #main #mc_embed_signup input[type="email"] {
-    width: 500px;
+    width: 70%;
     border-radius: 3px;
     float: none;
     text-align: center;
   }
   #main #mc_embed_signup input[type="submit"] {
-    width: 30%;
+    width: 40% !important;
+    text-align: center;
     border-radius: 3px;
     float: none;
   }

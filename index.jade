@@ -143,11 +143,20 @@ body
       .row.events
         .twelve.columns
           h1 Upcoming Events
-          ul
-            each event in events
-              li
-                time= event.time
-                = event.description
+          .six.columns
+            ul
+              each event, index in events
+                if index % 2 === 0
+                  li
+                    time= event.time
+                    = event.description
+          .six.columns
+            ul
+              each event, index in events
+                unless index % 2 === 0
+                  li
+                    time= event.time
+                    = event.description
         // end six columns
       // end row
     // end events

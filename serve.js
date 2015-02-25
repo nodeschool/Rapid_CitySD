@@ -36,10 +36,10 @@ http.createServer(function(request, response) {
         var locals = {
           events: [{
             time: "Tuesday, February 24th: 6pm - 8pm",
-            description: "NodeSchool Meetup – Hot Pink, Ink"
+            description: "NodeSchool Meetup - Hot Pink, Ink"
           }, {
-            time: "Tuesday, February 24th: 6pm - 8pm",
-            description: "NodeSchool Meetup – Hot Pink, Ink"
+            time: "Tuesday, March 10th: 6pm - 8pm",
+            description: "HTML Preprocessor Workshop - Hot Pink, Ink"
           }]
         }
         var file = jade.render(file, locals)

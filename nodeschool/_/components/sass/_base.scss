@@ -1,0 +1,438 @@
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+
+body {
+   background: #fff;
+   font-family: 'merriweather-regular', sans-serif;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+  color: #838C95;
+
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 2. Typography
+      Vertical rhythm with leading derived from 6
+--------------------------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+   color: #313131;
+  font-family: 'montserrat-bold', sans-serif;
+   font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+h5 { font-size: 18px; line-height: 30px; }
+h6 { font-size: 14px; line-height: 30px; }
+.subheader { }
+
+p { margin: 0 0 30px 0; }
+p img { margin: 0; }
+p.lead {
+   font: 18px/36px 'merriweather-light', sans-serif;
+   margin-bottom: 24px;
+}
+
+/* for 'em' and 'strong' tags, font-size and line-height should be same with
+the body tag due to rendering problems in some browsers */
+em { font: 15px/30px 'merriweather-italic', sans-serif; }
+strong, b { font: 15px/30px 'merriweather-bold', sans-serif; }
+small { font-size: 11px; line-height: inherit; }
+
+/*	Blockquotes */
+blockquote {
+   margin: 30px 0px;
+   padding-left: 40px;
+   position: relative;
+}
+blockquote:before {
+   content: "\201C";
+   opacity: 0.45;
+   font-size: 80px;
+   line-height: 0px;
+   margin: 0;
+   font-family: arial, sans-serif;
+
+   position: absolute;
+   top:  30px;
+  left: 0;
+}
+blockquote p {
+   font-family: georgia, serif;
+   font-style: italic;
+   padding: 0;
+   font-size: 18px;
+   line-height: 30px;
+}
+blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+}
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited { color: #8B9798; border: none }
+
+/* ---------------------------------------------------------------------
+/*  Pull Quotes Markup
+/*
+    <aside class="pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+   </aside>
+/*
+/* --------------------------------------------------------------------- */
+.pull-quote {
+   position: relative;
+  padding: 18px 30px 18px 0px;
+}
+.pull-quote:before,
+.pull-quote:after {
+  height: 1em;
+  opacity: 0.45;
+  position: absolute;
+  font-size: 80px;
+  font-family: Arial, Sans-Serif;
+}
+.pull-quote:before {
+  content: "\201C";
+  top:  33px;
+  left: 0;
+}
+.pull-quote:after {
+  content: '\201D';
+  bottom: -33px;
+  right: 0;
+}
+.pull-quote blockquote {
+   margin: 0;
+}
+.pull-quote blockquote:before {
+   content: none;
+}
+
+/* Abbreviations */
+abbr {
+   font-family: 'merriweather-bold', sans-serif;
+  font-variant: small-caps;
+  text-transform: lowercase;
+   letter-spacing: .5px;
+  color: gray;
+}
+abbr:hover { cursor: help; }
+
+/* drop cap */
+.drop-cap:first-letter {
+  float: left;
+  margin: 0;
+  padding: 14px 6px 0 0;
+  font-size: 84px;
+  font-family: /* Copperplate */ 'montserrat-bold', sans-serif;
+   line-height: 60px;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+hr { border: solid #E8E8E8; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
+
+
+/*  3. Links  ------------------------------------------------------- */
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: #197C28;
+
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+a:hover, a:focus { color: #333; }
+p a, p a:visited { line-height: inherit; }
+
+/*  4. List  --------------------------------------------------------- */
+
+ul, ol { margin-bottom: 24px; margin-top: 12px; }
+ul { list-style: none outside; }
+ol { list-style: decimal; }
+ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+ul ul, ul ol,
+ol ol, ol ul { margin: 6px 0 6px 30px; }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+li { line-height: 18px; margin-bottom: 12px; }
+ul.large li { }
+li p { }
+
+/* ---------------------------------------------------------------------
+/*  Stats Tab Markup
+
+    <ul class="stats-tabs">
+    <li><a href="#">[value]<b>[name]</b></a></li>
+   </ul>
+
+    Extend this object into your markup.
+/*
+/* --------------------------------------------------------------------- */
+.stats-tabs {
+   padding: 0;
+   margin: 24px 0;
+}
+.stats-tabs li {
+  display: inline-block;
+  margin: 0 10px 18px 0;
+  padding: 0 10px 0 0;
+  border-right: 1px solid #ccc;
+}
+.stats-tabs li:last-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.stats-tabs li a {
+  display: inline-block;
+  font-size: 22px;
+  font-family: 'montserrat-bold', sans-serif;
+   border: none;
+   color: #313131;
+}
+.stats-tabs li a:hover {
+   color: #197C28;
+}
+.stats-tabs li a b {
+  display: block;
+  margin: 6px 0 0 0;
+  font-size: 13px;
+  font-family: 'montserrat-regular', sans-serif;
+   color: #8B9798;
+}
+
+/* definition list */
+dl { margin: 12px 0; }
+dt { margin: 0; color: #197C28; }
+dd { margin: 0 0 0 20px; }
+
+/* Lining Definition Style Markup */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+.lining dd + dd:before {
+  content: ", ";
+}
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2em;
+}
+
+/* Dictionary Definition Style Markup */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2em;
+}
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+.dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/* Pagination */
+.pagination {
+   margin: 36px auto;
+   text-align: center;
+}
+.pagination ul li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+.pagination .page-numbers {
+   font: 15px/18px 'montserrat-regular', sans-serif;
+   display: inline-block;
+   padding: 6px 10px;
+   margin-right: 3px;
+   margin-bottom: 6px;
+  color: #6E757C;
+  background-color: #E6E8EB;
+
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+
+   border-radius: 3px;
+}
+.pagination .page-numbers:hover {
+   background: #838A91;
+   color: #fff;
+}
+.pagination .current,
+.pagination .current:hover {
+   background-color: #197C28;
+   color: #fff;
+}
+.pagination .inactive,
+.pagination .inactive:hover {
+   background-color: #E6E8EB;
+  color: #A9ADB2;
+}
+.pagination .prev, .pagination .next {}
+
+/*
+ * Merriweather
+================================================================================ */
+
+@font-face {
+    font-family: 'merriweather-heavy';
+    src: url('fonts/merriweather/merriweather-black-webfont.eot');
+    src: url('fonts/merriweather/merriweather-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-black-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-black-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-black-webfont.svg#merriweatherheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-bold';
+    src: url('fonts/merriweather/merriweather-bold-webfont.eot');
+    src: url('fonts/merriweather/merriweather-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-bold-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-bold-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-bold-webfont.svg#merriweatherbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-bold-italic';
+    src: url('fonts/merriweather/merriweather-bolditalic-webfont.eot');
+    src: url('fonts/merriweather/merriweather-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-bolditalic-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-bolditalic-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-bolditalic-webfont.svg#merriweatherbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-heavy-italic';
+    src: url('fonts/merriweather/merriweather-heavyitalic-webfont.eot');
+    src: url('fonts/merriweather/merriweather-heavyitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-heavyitalic-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-heavyitalic-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-heavyitalic-webfont.svg#merriweatherheavy_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-italic';
+    src: url('fonts/merriweather/merriweather-italic-webfont.eot');
+    src: url('fonts/merriweather/merriweather-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-italic-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-italic-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-italic-webfont.svg#merriweatheritalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-light';
+    src: url('fonts/merriweather/merriweather-light-webfont.eot');
+    src: url('fonts/merriweather/merriweather-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-light-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-light-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-light-webfont.svg#merriweatherlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-light-italic';
+    src: url('fonts/merriweather/merriweather-lightitalic-webfont.eot');
+    src: url('fonts/merriweather/merriweather-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-lightitalic-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-lightitalic-webfont.svg#merriweatherlight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'merriweather-regular';
+    src: url('fonts/merriweather/merriweather-regular-webfont.eot');
+    src: url('fonts/merriweather/merriweather-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/merriweather/merriweather-regular-webfont.woff') format('woff'),
+         url('fonts/merriweather/merriweather-regular-webfont.ttf') format('truetype'),
+         url('fonts/merriweather/merriweather-regular-webfont.svg#merriweatherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+ * Montserrat
+================================================================================ */
+
+@font-face {
+   font-family: 'montserrat-regular';
+   src: url('fonts/montserrat/montserrat-regular-webfont.eot');
+   src: url('fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff'),
+        url('fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+        url('fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'montserrat-bold';
+   src: url('fonts/montserrat/montserrat-bold-webfont.eot');
+   src: url('fonts/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/montserrat/montserrat-bold-webfont.woff') format('woff'),
+        url('fonts/montserrat/montserrat-bold-webfont.ttf') format('truetype'),
+        url('fonts/montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+/*
+ * FIXED for Font-Face Chrome Rendering
+================================================================================ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    @font-face {
+   font-family: 'montserrat-regular';
+   src: url('fonts/montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+   }
+
+   @font-face {
+   font-family: 'montserrat-bold';
+   src: url('fonts/montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
+   }
+
+}

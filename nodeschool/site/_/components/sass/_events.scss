@@ -1,0 +1,26 @@
+#events {
+  text-align:center;
+}
+
+#events h1 {
+  font: 30px/36px 'montserrat-bold', sans-serif;
+  color: #a7a27c;
+
+}
+
+
+
+#events ul {
+  margin-top:40px;
+  li {
+    text-align:left;
+    text-indent:20px;
+    time {
+      display:block;
+      color: #a7a27c;
+      font-style:italic;
+      text-indent:-20px;
+      margin-bottom:10px;
+    }
+  }
+}

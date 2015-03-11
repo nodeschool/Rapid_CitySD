@@ -1,0 +1,182 @@
+doctype html
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+head
+  //
+    Basic Page Needs
+    ==================================================
+  meta(charset='UTF-8')
+
+  title Countdown for Refresh Rapid
+  //
+    Mobile Specific Metas
+    ==================================================
+  meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  //
+    CSS
+    ==================================================
+  link(rel='stylesheet', href='_/css/style.css')
+
+  link(rel='stylesheet', href='_/css/font-awesome/css/font-awesome.min.css')
+  //
+    Script
+    ==================================================
+  //
+    Favicons
+    ==================================================
+  link(rel='shortcut icon', href='favicon.png')
+body
+  //
+    Intro Section
+    ==================================================
+  section#intro
+    header.row
+      #logo
+        a(href='#')
+          img(src='images/logo.png', alt='logo')
+      nav#nav-wrap
+        a.menu-btn(href='#nav-wrap', title='Show navigation') Show navigation
+        a.menu-btn(href='#', title='Hide navigation') Hide navigation
+        ul#nav.nav
+          li.current
+            a.smoothscroll(href='#about') About
+          li
+            a.smoothscroll(href='#events') Events
+        // end #nav
+      // end #nav-wrap
+    // header End
+    #main.row
+      .twelve.columns
+        h1 We are currently working on something awesome. Stay tuned!
+        h5 Time Left Until Launching
+        #counter.cf
+          span
+            | 60
+            em days
+          span
+            | 0
+            em hours
+          span
+            | 0
+            em minutes
+          span
+            | 0
+            em seconds
+        h4 Learn about the Refresh Rapid Community.
+        p
+          | Enter your email address below to subcribe to the newsletter or join our social media groups
+        // Begin MailChimp Signup Form
+        #mc_embed_signup
+          form#mc-embedded-subscribe-form.validate(action='http://refreshrapid.us10.list-manage.com/subscribe?u=b8b9dffdf0afd4d667b46413f&id=5264ccc304', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+            input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='email address', required='')
+            // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+            div(style='position: absolute; left: -5000px;')
+              input(type='text', name='b_cdb7b577e41181934ed6a6a44_e65110b38d', value='')
+            // <div class="clear">
+            input#mc-embedded-subscribe.button(type='submit', value='Subscribe', name='subscribe')
+            // </div>
+        ul.social
+          li
+            a(href='https://www.facebook.com/groups/refreshrapid/')
+              i.fa.fa-facebook
+          li
+            a(href='https://www.linkedin.com/groups?home=&gid=6686377')
+              i.fa.fa-linkedin
+          li
+            a(href='https://github.com/nodeschool/Rapid_CitySD')
+              i.fa.fa-github
+          li
+            a(href='https://plus.google.com/u/0/communities/115073914866072406528')
+              i.fa.fa-google-plus
+    // end contacts
+    // main end
+  // end intro section
+  //
+    About Section
+    ==================================================
+  section#about
+    .row.section-header
+      .twelve.columns
+        .icon-wrap
+          i.fa.fa-group
+        h1 About Us
+        p.lead
+          | Refresh Rapid is a movement inspiring design, development, and progress.
+          br
+          |               The goal is simple: We set the stage for sharp designers and developers to share refreshing perpectives and expertise; in the hopes of inspiring and contributing to the momentum that is the Rapid City tech community.
+          br
+          br
+          |               We are always open to suggestions for discussion topics, looking for speakers and sponsors and would love your involvment.
+    // end section-header
+    .row.section-content
+      .six.columns
+        h3 Refresh Manifesto
+        p
+          | Refresh Rapid is one of many cities and communities that shares in the Refresh Manifesto:
+        ul
+          li Let&apos;s Gather Great Minds
+          li Let&apos;s Share All of Our Knowledge
+          li Let&apos;s All Grow and Learn
+          li Let&apos;s Promote Local Talent
+          li Let&apos;s Make Our Community Better
+      .six.columns
+        h3 Our Approach
+        p
+          | Our approach to Refresh Rapid is to provide meetups that feature short, thought-provoking and attention span friendly sessions by speakers followed by interesting discussions. The goal is to deliver great content, inspire the audience and ignite the community. In addition, you get a chance to network with other local people that you would like to meet.
+    // end section-content
+    .row.section-content
+      .six.columns
+        h3 Our Vision
+        p
+          | We envision Rapid City as a modern tech city, the connected hub of  Western South Dakota, melding our rich culture with the future opportunities that modern technology brings us.
+      .six.columns
+        h3 Our Objective
+        p
+          | To be an educational center and resource for those engaged in the technical arts in Rapid City. With projects such as NodeSchool, we hope to provide those with the desire to learn an encouraging atmosphere to develop and grow.
+    // end section-content
+    #events
+      .row.events
+        .twelve.columns
+          h1 Upcoming Events
+          .six.columns
+            ul
+              each event, index in events
+                if index % 2 === 0
+                  li
+                    time= event.time
+                    = event.description
+          .six.columns
+            ul
+              each event, index in events
+                unless index % 2 === 0
+                  li
+                    time= event.time
+                    = event.description
+        // end six columns
+      // end row
+    // end events
+  // About Section End
+  //
+    footer
+    ==================================================
+  footer
+    .row
+      .twelve.columns
+        ul.copyright
+          li &copy; Copyright 2015 Refresh Rapid
+          li Designed by the Refresh Rapid Team
+    #go-top
+      a.smoothscroll(title='Back to Top', href='#intro')
+        i.fa.fa-arrow-up
+  // Footer End
+  //
+    Java Script
+    ==================================================
+  script(src='_/js/jquery.js')
+  script(src='_/js/script.js')
+  script(src='http://localhost:35729/livereload.js')

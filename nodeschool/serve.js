@@ -1,15 +1,15 @@
-/*  
+/*
     This is a simple node server that will respond to requests on localhost.
     Call it from the command line with `node serve.js [port]`
-    
-    This script is intended for learning purposes. 
+
+    This script is intended for learning purposes.
     A production system would require much more robust error handling.
-    
+
     However, it serves to help us understand how node interoperates with http requests
     and file system resources.
-    
+
     It will serve html, js and css files directly, and will render jade files to html.
-    This naive implementation relies on the browser to parse the content-type of the 
+    This naive implementation relies on the browser to parse the content-type of the
     requested files ("text/css", "text/html", "image/jpeg", etc.).
 */
 
@@ -25,14 +25,14 @@ var http = require("http"),
   // Port can be set from the command line, or default to 8888
   port = process.argv[2] || 8888;
 
-// Start the server. 
+// Start the server.
 // The createServer() function takes a callback (receiving request and response objects)
 // that will be executed on each request.
 http.createServer(function(request, response) {
-  
+
   // parse the request url to find the file that is being requested.
   var uri = url.parse(request.url).pathname,
-    // the filename is built from the cwd (current working directory) of 
+    // the filename is built from the cwd (current working directory) of
     // the current process, and the parsed uri path
     filename = path.join(process.cwd(), uri);
     
@@ -88,7 +88,8 @@ http.createServer(function(request, response) {
       response.end();
     });
   });
-// The server won't start listening until we get to this part.
+
+// Tell the server to start listening on the designated port.
 }).listen(parseInt(port, 10));
 
 // Write to the console, to let the user know that it's runninng.

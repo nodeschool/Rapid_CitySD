@@ -104,3 +104,13 @@ http.createServer(function(request, response) {
 
 // Write to the console, to let the user know that it's runninng.
 console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
+
+function getCalendarEvents() {
+  return events = [{
+    time: "Tuesday, February 24th: 6pm - 8pm",
+    description: "NodeSchool Meetup - Hot Pink, Ink"
+  }, {
+    time: "Tuesday, March 10th: 6pm - 8pm",
+    description: "HTML Preprocessor Workshop - Hot Pink, Ink"
+  }]
+}

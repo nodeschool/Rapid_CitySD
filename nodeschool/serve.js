@@ -34,7 +34,7 @@ http.createServer(function(request, response) {
   var uri = url.parse(request.url).pathname,
     // the filename is built from the cwd (current working directory) of
     // the current process, and the parsed uri path
-    filename = path.join(process.cwd(), uri);
+    filename = path.join(process.cwd(), 'site', uri);
 
   try {
     // If the requested filename is a directory (eg, '/', the site root),

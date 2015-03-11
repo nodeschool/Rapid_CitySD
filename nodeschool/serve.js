@@ -35,58 +35,65 @@ http.createServer(function(request, response) {
     // the filename is built from the cwd (current working directory) of
     // the current process, and the parsed uri path
     filename = path.join(process.cwd(), uri);
-    
-  // If the requested filename is a directory (eg, '/', the site root),
-  // we will render and serve the 'index.jade' file from that directory
-  if (fs.statSync(filename).isDirectory()) filename += '/index.jade';
-    
-  // fs.exists checks if the file exists
-  // It will be deprecated and should be replaced with a call to fs.open
-  // (http://nodejs.org/api/fs.html#fs_fs_exists_path_callback)
-  fs.exists(filename, function(exists) {
-    // however, in this case it makes it easy for us to return a 404 if the file isn't found
-    if (!exists) {
+
+  try {
+    // If the requested filename is a directory (eg, '/', the site root),
+    // we will render and serve the 'index.jade' file from that directory
+    if (fs.statSync(filename).isDirectory()) filename += '/index.jade';
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      // This is a File not found error: return 404
       response.writeHead(404, {
         "Content-Type": "text/plain"
       });
       response.write("404 Not Found\n");
       response.end();
       return;
-    }
-    
-    // Read the file in binary format. The callback receives any errors, and the file
-    fs.readFile(filename, "binary", function(err, file) {
-      // Respond to errors with Status code 500: "Internal server error"
-      if (err) {
-        response.writeHead(500, {
-          "Content-Type": "text/plain"
-        });
-        response.write(err + "\n");
-        response.end();
-        return;
-      }
-      
-      // Render the file through jade if file extension is .jade
-      if (path.extname(filename) === '.jade') {
-        // the `locals` var is passed to the template engine, for dynamic data
-        // TODO: replace this with a calendar service
-        var locals = {
-          events: [{
-            time: "Tuesday, February 24th: 6pm - 8pm",
-            description: "NodeSchool Meetup - Hot Pink, Ink"
-          }, {
-            time: "Tuesday, March 10th: 6pm - 8pm",
-            description: "HTML Preprocessor Workshop - Hot Pink, Ink"
-          }]
-        }
-        // render the file
-        file = jade.render(file, locals)
-      }
-      // And respond. Success!
-      response.writeHead(200);
-      response.write(file, "binary");
+
+    } else {
+      // Respond to other errors with Status code 500: "Internal server error"
+      response.writeHead(500, {
+        "Content-Type": "text/plain"
+      });
+      response.write(err + "\n");
       response.end();
-    });
+      return;
+    }
+  }
+
+  // Read the file in binary format. The callback receives any errors, and the file
+  fs.readFile(filename, "binary", function(err, file) {
+    if (error && error.code === 'ENOENT') {
+      response.writeHead(404, {
+        "Content-Type": "text/plain"
+      });
+      response.write("404 Not Found\n");
+      response.end();
+      return;
+    } else if (error) {
+      // Respond to other errors with Status code 500: "Internal server error"
+      response.writeHead(500, {
+        "Content-Type": "text/plain"
+      });
+      response.write(err + "\n");
+      response.end();
+      return;
+    }
+
+    // Render the file through jade if file extension is .jade
+    if (path.extname(filename) === '.jade') {
+      // the `locals` var is passed to the template engine, for dynamic data
+      // TODO: replace this with a calendar service
+      var locals = {
+        events: getCalendarEvents()
+      }
+      // render the file
+      file = jade.render(file, locals)
+    }
+    // And respond. Success!
+    response.writeHead(200);
+    response.write(file, "binary");
+    response.end();
   });
 
 // Tell the server to start listening on the designated port.

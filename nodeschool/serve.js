@@ -62,22 +62,25 @@ http.createServer(function(request, response) {
   }
 
   // Read the file in binary format. The callback receives any errors, and the file
-  fs.readFile(filename, "binary", function(err, file) {
-    if (error && error.code === 'ENOENT') {
-      response.writeHead(404, {
-        "Content-Type": "text/plain"
-      });
-      response.write("404 Not Found\n");
-      response.end();
-      return;
-    } else if (error) {
-      // Respond to other errors with Status code 500: "Internal server error"
-      response.writeHead(500, {
-        "Content-Type": "text/plain"
-      });
-      response.write(err + "\n");
-      response.end();
-      return;
+  fs.readFile(filename, "binary", function(error, file) {
+    if (error) {
+      if (error.code === 'ENOENT') {
+        // This is a File not found error: respond with 404
+        response.writeHead(404, {
+          "Content-Type": "text/plain"
+        });
+        response.write("404 Not Found\n");
+        response.end();
+        return;
+      } else {
+        // Respond to other errors with Status code 500: "Internal server error"
+        response.writeHead(500, {
+          "Content-Type": "text/plain"
+        });
+        response.write(err + "\n");
+        response.end();
+        return;
+      }
     }
 
     // Render the file through jade if file extension is .jade

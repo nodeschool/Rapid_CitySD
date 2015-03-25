@@ -16,14 +16,24 @@
 // Import node packages with the `require` function.
 // This provides utility functions for http and filesystem resources
 var http = require("http"),
+  https = require("https"),
   url = require("url"),
   path = require("path"),
   fs = require("fs"),
   // template engine: http://jade-lang.com
   jade = require('jade'),
+  // date parser/formatting library: http://momentjs.com
+  moment = require('moment'),
 
   // Port can be set from the command line, or default to 8888
   port = process.argv[2] || 8888;
+
+// set up an empty global variable to hold our event data
+global.events = []
+// Request event data from google
+getCalendarEvents();
+// and query it preiodically
+setInterval(getCalendarEvents, 1000*60*15);
 
 // Start the server.
 // The createServer() function takes a callback (receiving request and response objects)
@@ -88,11 +98,13 @@ http.createServer(function(request, response) {
       // the `locals` var is passed to the template engine, for dynamic data
       // TODO: replace this with a calendar service
       var locals = {
-        events: getCalendarEvents()
+        events: global.events
       }
       // render the file
       file = jade.render(file, locals)
     }
+    // query google again, to update the cached data for the next request
+    getCalendarEvents();
     // And respond. Success!
     response.writeHead(200);
     response.write(file, "binary");
@@ -105,12 +117,48 @@ http.createServer(function(request, response) {
 // Write to the console, to let the user know that it's runninng.
 console.log("Static file server running at\n  => http://localhost:" + port + "/\nCTRL + C to shutdown");
 
+// This function requests JSON data from the Google Calendar API
 function getCalendarEvents() {
-  return events = [{
-    time: "Tuesday, February 24th: 6pm - 8pm",
-    description: "NodeSchool Meetup - Hot Pink, Ink"
-  }, {
-    time: "Tuesday, March 10th: 6pm - 8pm",
-    description: "HTML Preprocessor Workshop - Hot Pink, Ink"
-  }]
+    var result = "",
+    
+    GOOGLE_CALENDAR_ID = "0u9nj9urhs8887sla430apcqfc@group.calendar.google.com",
+    GOOGLE_API_KEY = "AIzaSyAEdf5fMaVptJRNf_TFW0f9WzM1v-ZT8rQ", // Don't be a jerk with this
+    
+    // https request options
+    options = {
+        host: 'www.googleapis.com',
+        path: '/calendar/v3/calendars/'+GOOGLE_CALENDAR_ID+'/events?key='+GOOGLE_API_KEY
+    },
+    
+    callback = function(response) {
+        //response is a stream
+        response.on("data", function(data) {
+            //collect data as it comes in
+            result += data
+        }).on("end", function() {
+          console.log(result);
+          // update our "cache" when the request ends. 
+            global.events = formatEvents(JSON.parse(result))    
+        })
+    }
+    
+    // make the request
+    request = https.request( options , callback ),
+    response = request.end()
+}
+
+// Extract just the data that we need from google's response
+function formatEvents(json) {
+    var results = []
+    // loop over the items array
+    json.items.forEach(function(item) {
+        // and collect the data that we need
+        results.push(
+            {
+              time: moment(item.start.dateTime).format('MMMM Do YYYY, h:mm a'), 
+              description: item.description
+            }
+        )
+    });
+    return results;
 }

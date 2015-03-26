@@ -4,5 +4,8 @@
   "dependencies": {
     "jade": "~1.9.2",
     "moment": "^2.9.0"
-  }
+  },
+  "scripts": {
+    "start": "node nodeschool/serve.js"
+  },
 }

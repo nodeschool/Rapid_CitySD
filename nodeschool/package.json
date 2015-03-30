@@ -1,7 +1,0 @@
-{
-  "name" : "refresh-rapid-nodeschool",
-  "version" : "1.0.0",
-  "dependencies" : {
-    "jade" : "~1.9.2"
-  }
-}

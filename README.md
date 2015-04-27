@@ -1,6 +1,8 @@
 Rapid_CitySD
 ============
 
+[![Join the chat at https://gitter.im/nodeschool/Rapid_CitySD](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nodeschool/Rapid_CitySD?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Node School for members of the Refresh Rapid Community
 
 Interested in new NodeSchool Refresh Rapid events: [Have a a look here](https://github.com/nodeschool/Rapid_CitySD/issues)
